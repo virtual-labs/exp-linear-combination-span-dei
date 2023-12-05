@@ -1,13 +1,167 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="css/lc.css">
 </head>
+<style>
+.next{
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin-top: 0.5rem;
+    align-content: center;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    width:8rem;
+    float:right;
+}
+.next:hover {
+  background-color: #ada;
+  color: black;
+}
+</style>
 <body>
-		<!-- Your code goes here-->
+	<h2 class="pagehead">Linear Combination</h2>
+    
+	<div class="container">
+    <div class="column">
+    	
+    	<h2>Single element</h2>
+  		
+  		<p>&alpha; . (x<sub>1</sub> , x<sub>2</sub>) = (&alpha; . x<sub>1</sub> , &alpha; . x<sub>2</sub>)</p>
+        <div class="case">
+        <p style="color:red;"><u>Case 1</u> : x &equiv; (1 , 2)</p>
+        <p>For different values of &alpha;</p>
+  		<input type="submit" value="&alpha; = 0" onclick="alphazero();"><br>
+  		<p id='alphazero' style="color:blue;"></p>
+  		
+  		<input type="submit" value="&alpha; = 2" onclick="alphaptwo();"><br>
+  		<p id='alphaptwo' style="color:darkviolet;"></p>
+  		
+  		<input type="submit" value="&alpha; = -3.003" onclick="alphaneg();"><br>
+  		<p id='alphaneg' style="color:darkorange;"></p>
+  		
+  		
+  		<h3>Geometric Visualization</h3>
+    	<canvas id="my-canvas" width="300" height="300"></canvas><br>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+        </div>
+        <br><br>
+        <div class="case">
+        <p style="color:red;"><u>Case 2</u> : x &equiv; (0 , 0)</p>
+        <p>For different values of &alpha;</p>
+        <input type="submit" value="&alpha; = 0" onclick="azero();"><br>
+        <p id='azero' style="color:blue;"></p>
+        
+        <input type="submit" value="&alpha; = 6.94" onclick="apos();"><br>
+        <p id='apos' style="color:darkorange;"></p>
+        
+        <input type="submit" value="&alpha; = -7" onclick="aneg();"><br>
+        <p id='aneg' style="color:darkviolet;"></p>
+        
+        
+        <h3>Geometric Visualization</h3>
+        <canvas id="mycanvas" width="300" height="300"></canvas><br>
+        
+        </div>
+        <div class="alphavaluesnote">
+            <H4 style="text-align: center;">---- Try it yourself for other values of &alpha; ----</H4>
+        </div>
+
+    </div>
+    <div class="column">
+    	<h2>Two elements</h2>
+    	
+    	<p>&alpha; . (x<sub>1</sub> , x<sub>2</sub>) + &beta; . (y<sub>1</sub> , y<sub>2</sub>) = (&alpha; . x<sub>1</sub> + &beta; . y<sub>1</sub>  ,  &alpha; . x<sub>2</sub> + &beta; . y<sub>2</sub>)</p>
+
+        <div class="case">
+        <p style="color:red;"><u>Case 1</u> : x &equiv; (1 , 2) , y &equiv; (2 , 4)</p>
+        <p>For different values of &alpha; and &beta;</p>
+    	<input type="submit" value="&alpha; = 0 , &beta; = 0" onclick="azerobzero();"><br>
+    	<p id='azerobzero' style="color:blue;"></p>
+    	
+  		<input type="submit" value="&alpha; = 0 , &beta; = -2" onclick="azerobnum();"><br>
+  		<p id='azerobnum' style="color:brown;"></p>
+  		
+  		<input type="submit" value="&alpha; = -1.56 , &beta; = 2.63" onclick="anumbnum();">
+  		<p id='anumbnum' style="color:darkviolet;"></p>
+    	
+    	<h3>Geometric Visualization</h3>
+    	<canvas id="canvas" width="300" height="300"></canvas><br>
+        </div><br><br>
+
+        <div class="case">
+        <p style="color:red;"><u>Case 2</u> : x &equiv; (1 , 2) , y &equiv; (2 , 5)</p>
+        <p>For different values of &alpha; and &beta;</p>
+        <input type="submit" value="&alpha; = 0 , &beta; = 0" onclick="abzero();"><br>
+        <p id='abzero' style="color:blue;"></p>
+        
+        <input type="submit" value="&alpha; = 1 , &beta; = 2" onclick="abpos();"><br>
+        <p id='abpos' style="color:brown;"></p>
+        
+        <input type="submit" value="&alpha; = -0.56 , &beta; = 1.63" onclick="abneg();">
+        <p id='abneg' style="color:darkviolet;"></p>
+        
+        <h3>Geometric Visualization</h3>
+        <canvas id="abcanvas" width="300" height="300"></canvas><br>
+        
+        </div>
+    	<div class="alphavaluesnote">
+            <H4 style="text-align: center;">---- Try it yourself for other values of &alpha; and &beta; ----</H4>
+        </div>
+    </div>
+    <div class="column">
+    	<h2>More than two elements</h2>
+
+        <p>&alpha; . (x<sub>1</sub> , x<sub>2</sub>) + &beta; . (y<sub>1</sub> , y<sub>2</sub>) + &gamma; . (z<sub>1</sub> , z<sub>2</sub>) = <br>(&alpha; . x<sub>1</sub> + &beta; . y<sub>1</sub> + &gamma; . z<sub>1</sub>  ,  &alpha; . x<sub>2</sub> + &beta; . y<sub>2</sub> + &gamma; . z<sub>2</sub>)</p>
+        
+
+        <div class="case">
+        <p style="color:red;"><u>Case 1</u> : x &equiv; (1 , 2) , y &equiv; (2 , 4), z &equiv; (3 , 5)</p>
+        <p>For different values of &alpha; , &beta; and &gamma;</p>
+        <input type="submit" value="&alpha; = 0 , &beta; = 0 , &gamma; = 0" onclick="abgzero();"><br>
+        <p id='abgzero' style="color:blue;"></p>
+        
+        <input type="submit" value="&alpha; = 4 , &beta; = -2 , &gamma; = 1.64" onclick="abgpos();"><br>
+        <p id='abgpos' style="color:brown;"></p>
+        
+        <input type="submit" value="&alpha; = -1.65 , &beta; = 0 , &gamma; = -0.78" onclick="abgneg();">
+        <p id='abgneg' style="color:darkviolet;"></p>
+        
+        <h3>Geometric Visualization</h3>
+        <canvas id="mecanvas" width="300" height="300"></canvas><br>
+        
+        </div><br><br>
+        <div class="case">
+        <p style="color:red;"><u>Case 2</u> : x &equiv; (1 , 2) , y &equiv; (5 , 3), z &equiv; (6 , 2)</p>
+        <p>For different values of &alpha; , &beta; and &gamma;</p>
+        <input type="submit" value="&alpha; = 0 , &beta; = 0 , &gamma; = 0" onclick="abgzero2();"><br>
+        <p id='abgzero2' style="color:blue;"></p>
+        
+        <input type="submit" value="&alpha; = 1 , &beta; = -1 , &gamma; = 0.56" onclick="abgpos2();"><br>
+        <p id='abgpos2' style="color:brown;"></p>
+        
+        <input type="submit" value="&alpha; = -4.25 , &beta; = 1.2 , &gamma; = 2" onclick="abgneg2();">
+        <p id='abgneg2' style="color:darkviolet;"></p>
+        
+        <h3>Geometric Visualization</h3>
+        <canvas id="abgcanvas" width="300" height="300"></canvas><br>
+        
+        </div>
+        <div class="alphavaluesnote">
+            <H4 style="text-align: center;">---- Try it yourself for other values of &alpha; , &beta; and &gamma; ----</H4>
+        </div>
+
+    </div>
+</div>
+<p style="float:center; align-content:right;">
+    <a href="./span.html" class="next" >Next &raquo;</a>
+</p><br>
 </body>
+
+<script src="js/lc.js"></script>
+
 </html>
