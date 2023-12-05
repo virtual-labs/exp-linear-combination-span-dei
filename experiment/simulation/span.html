@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/span.css">
+</head>
+<style>
+    .previous{
+    display: block;
+    float:left;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin-top: 0.5rem;
+    align-content: center;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    width:8rem;
+}
+.previous:hover {
+  background-color: #ada;
+  color: black;
+}
+</style>
+<body>
+<main>
+    <h2 class="pagehead">L(S) [Span of S &sube; R]</h2>
+        <section class="container">
+            <div class="column">
+                <h3 class="boxhead">L(S) for S = { x }</h3>
+                <input type="submit" onclick="point1()" value="&#9906; Pick a point (x)"><p id="oespan" style="color:darkblue;"></p>
+                <canvas id="oecanvas" width="300" height="300"></canvas><br>
+                <p id="note1" style="color:red;"></p>
+            </div>
+
+            <div class="column">
+                <h3 class="boxhead">L(S) for S = { x , y }</h3>
+                <input type="submit" onclick="pnt1()" value="&#9906; Pick a point (x)"><br><br>
+                <canvas id="twocanvas" width="250" height="250"></canvas><br>
+
+                <p id="note2" style="color:red;"></p>
+
+                <input class="subhead" id="subhead" type="submit" onclick="showgraphs2();" value="Pick another point (y) - "><br>
+                <div id="showgraphs2" style = "display:none;">
+                    <div  class="responsive-two-column-grid">
+                        <div class="case">
+                            <input id="btn1" type="submit" onclick="pnt2()" value="&#9906; on line"><br><br>
+                            <canvas id="canvas" width="150" height="150"></canvas><br>
+                            <p id='span2line' style="color:darkblue;"></p>
+                        </div>
+                        <div class="case">
+                            <input id="btn2" type="submit" onclick="pnt3()" value="&#9906; not on line"><br><br>
+                            <canvas id="tecanvas" width="150" height="150"></canvas><br>
+                            <p id="span2R2" style="color:darkblue;"></p>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+            <div class="column">
+                <h3 class="boxhead">L(S) for S = { x<sub>1</sub> , x<sub>2</sub> , ... , x<sub>n</sub> }</h3>
+                <input type="submit" onclick="pt1()" value="&#9906; Pick a point (x)"><br><br>
+                <canvas id="multicanvas" width="250" height="250"></canvas><br>
+
+                <p id="note3" style="color:red;"></p>
+
+                <input class="subhead" id="subhead" type="submit" onclick="showgraphsn();" value="Pick multiple points (y) - "><br>
+                <div id="showgraphsn" style = "display:none;">
+                    <div class="responsive-two-column-grid">
+                        <div class="case">
+                            <input id="btn3" type="submit" onclick="pt2()" value="&#9906; on line"><br><br>
+                            <canvas id="mecanvas" width="150" height="150"></canvas><br>
+                            <p id='spannline' style="color:darkblue;"></p>
+                        </div>
+                        <div class="case">
+                            <input id="btn4" type="submit" onclick="pt3()" value="&#9906; at least one not on line"><br><br>
+                            <canvas id="mtecanvas" width="150" height="150"></canvas><br>
+                            <p id='spannRn' style="color:darkblue;"></p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </section>
+        <p style="float: center; align-content:right;">
+            <a href="./" class="previous">&laquo; Previous</a>
+        </p>
+    </main>
+
+</body>
+<script src="js/span.js"></script>
+
+</html>
