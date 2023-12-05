@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.column {
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: lightyellow;
+  background-color: cornsilk;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+.pagehead{
+    display: block;
+    text-align: center;
+    background: linear-gradient(180deg, #e79, #a47);
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+    float:center;
+    margin: 0.5rem;
+    font-size: 28px;
+    color: white;
+}
+
+.boxhead{
+    font-size: 25px;
+    padding: 0;
+    margin: 0.5rem;
+}
+
+.case{
+    border: 1px solid #935;
+    margin: 0.1rem;
+}
+    .responsive-two-column-grid {
+            display:block;
+        }
+
+        .responsive-two-column-grid > * {
+            padding:0.5rem;
+        }
+        @media (min-width:768px) {
+            .responsive-two-column-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    
+    input{
+        cursor:pointer;
+        background-color: teal;
+        color:white;
+        border: none;
+        padding: 0.3rem 0.3rem;
+    }
+    #btn1{
+        background-color: #903;
+        padding: 0.1rem 0.2rem;
+        color:white;
+    }
+    #btn2{
+        background-color: #903;
+        padding: 0.1rem 0.2rem;
+        color:white;
+    }
+    #btn3{
+        background-color: #903;
+        padding: 0.1rem 0.2rem;
+        color:white;
+    }
+    #btn4{
+        background-color: #903;
+        padding: 0.1rem 0.2rem;
+        color:white;
+    }
+        
