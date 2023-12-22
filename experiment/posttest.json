@@ -2,12 +2,29 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "A: -6x+7 is a possible linear combination of x<sup>2</sup>+3x+2 and x<sup>2</sup>+3 <br>B: 2<sup>x</sup>2 +6 is a possible linear combination of x<sup>2</sup>+3x+2 and x<sup>2</sup>+3",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "A is true, B is true",
+        "b": "A is true, B is false",
+        "c": "A is false, B is true",
+        "d": "A is false, B is false"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A: L(S) is a subspace of V<br>B: S is a subset of L(S)",
+      "answers": {
+        "a": "A is true, B is true",
+        "b": "A is true, B is false",
+        "c": "A is false, B is true",
+        "d": "A is false, B is false"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +36,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Let R<sup>2</sup> be a vector space over R and S is a subset of R<sup>2</sup>, then<br>A: if S≠{0}, L(S)= R<sup>2</sup><br>B: if S={0}, L(S)={0}",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "A is true, B is true",
+        "b": "A is true, B is false",
+        "c": "A is false, B is true",
+        "d": "A is false, B is false"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -33,6 +50,40 @@
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A: (4, 4, 3), (2, 3, 9) and (6, 7, 12) span R<sup>3</sup><br>B: (4, 3, 7), (1, 1, 1) and (0, 0, 0) span R<sup>3</sup>",
+      "answers": {
+        "a": "A is true, B is true",
+        "b": "A is true, B is false",
+        "c": "A is false, B is true",
+        "d": "A is false, B is false"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Let v<sub>1</sub>=(2, 7, 3), v<sub>2</sub>=(2, 2, 2) and v<sub>3</sub>=(-4, 6, -2)<br>v<sub>3</sub>=2v<sub>1</sub> -4v<sub>2</sub><br>Then,",
+      "answers": {
+        "a": "Span{v<sub>1</sub>, v<sub>3</sub>}= span{v<sub>2</sub>, v<sub>3</sub>}",
+        "b": "Span{v<sub>1</sub>}= span{v<sub>1</sub>, v<sub>3</sub>}",
+        "c": "Span{v<sub>2</sub>}= span{v<sub>2</sub>, v<sub>3</sub>}",
+        "d": "Span{v<sub>1</sub>, v<sub>2</sub>}≠ span{v<sub>2</sub>, v<sub>3</sub>}"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
