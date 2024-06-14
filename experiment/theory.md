@@ -4,26 +4,26 @@ Let x<sub>1</sub>, x<sub>2</sub>, …, x<sub>k</sub> &isin; V and α<sub>1</sub>
 ### 2. Examples:
 Consider the vector spaces R<sup>2</sup> over R
    
-Then some linear combinations of (3, 0), (1, 4) are given below: <br>
-Case (i) α<sub>1</sub>=2, α<sub>2</sub>=1 <br>
+Then some linear combinations of (3, 0), (1, 4)&isin;R<sup>2</sup> are given below: <br>
+Case (i) α<sub>1</sub>=2, α<sub>2</sub>=1&isin;R <br>
 α<sub>1</sub>x<sub>1</sub>+α<sub>2</sub>x<sub>2</sub>= 2(3, 0) +1(1, 4) =(6, 0)+(1, 4)=(7, 4)
 
-Case (ii) α<sub>1</sub>=1, α<sub>2</sub>=0 <br>
+Case (ii) α<sub>1</sub>=1, α<sub>2</sub>=0&isin;R <br>
 α<sub>1</sub>x<sub>1</sub>+α<sub>2</sub>x<sub>2</sub>= 1(3, 0) + 0(1, 4) = (3, 0)+(0, 0) = (3, 0)
 
-Case (iii) α<sub>1</sub>=0, α<sub>2</sub>=1 <br>
+Case (iii) α<sub>1</sub>=0, α<sub>2</sub>=1&isin;R <br>
 α<sub>1</sub>x<sub>1</sub>+α<sub>2</sub>x<sub>2</sub>= 0(3, 0)+1(1, 4)=(0, 0)+(1, 4)=(1, 4)
 
-Case (iv) α<sub>1</sub>=-2, α<sub>2</sub>=√2 <br>
+Case (iv) α<sub>1</sub>=-2, α<sub>2</sub>=√2&isin;R <br>
 α<sub>1</sub>x<sub>1</sub>+α<sub>2</sub>x<sub>2</sub>= -2(3, 0)+ √2(1, 4)=(-6, 0)+(√2, 4√2)=(√2-6, 4√2) 
 ### 3. Example:
 Consider the vector space (P<sub>2</sub> (x), +, .) over R denoted by P<sub>2</sub> (x)  where P<sub>2</sub> (x)={ a<sub>2</sub>x<sup>2</sup>+a<sub>1</sub>x<sup>1</sup>+a<sub>0</sub>, where a<sub>1</sub>, a<sub>2</sub>, a<sub>0</sub> &isin; R }.
 
-The operation addition is defined as (a<sub>2</sub>x<sup>2</sup>+a<sub>1</sub>x<sup>1</sup>+a<sub>0</sub>)+(b<sub>2</sub>x<sup>2</sup>+b<sub>1</sub>x<sup>1</sup>+b<sub>0</sub>)={(a<sub>2</sub>+b<sub>2</sub>)x<sup>2</sup>+(a<sub>1</sub>+b<sub>1</sub>)x<sup>1</sup>+(a<sub>0</sub>+b<sub>0</sub>)}
+The operation addition is defined as (a<sub>2</sub>x<sup>2</sup>+a<sub>1</sub>x<sup>1</sup>+a<sub>0</sub>)+(b<sub>2</sub>x<sup>2</sup>+b<sub>1</sub>x<sup>1</sup>+b<sub>0</sub>)={(a<sub>2</sub>+b<sub>2</sub>)x<sup>2</sup>+(a<sub>1</sub>+b<sub>1</sub>)x<sup>1</sup>+(a<sub>0</sub>+b<sub>0</sub>)}; <br> where a<sub>0</sub>, a<sub>1</sub>, a<sub>2</sub>, b<sub>0</sub>, b<sub>1</sub>, b<sub>2</sub>&isin;R
 
-And the operation scalar multiplication is defined as α.(a<sub>2</sub>x<sup>2</sup>+a<sub>1</sub>x<sup>1</sup>+a<sub>0</sub>)=α.a<sub>2</sub>x<sup>2</sup>+ α.a<sub>1</sub>x<sup>1</sup>+ α.a<sub>0</sub>
+And the operation scalar multiplication is defined as α.(a<sub>2</sub>x<sup>2</sup>+a<sub>1</sub>x<sup>1</sup>+a<sub>0</sub>)=α.a<sub>2</sub>x<sup>2</sup>+ α.a<sub>1</sub>x<sup>1</sup>+ α.a<sub>0</sub>&isin;R
 
-Then x<sup>2</sup>+3x+3 &isin; P<sub>2</sub> (x) is a linear combination of p<sub>1</sub>=x+1, p<sub>2</sub>=x<sup>2</sup>+x+1, for α<sub>1</sub>=2, α<sub>2</sub>=1, s.t. 
+Then x<sup>2</sup>+3x+3 &isin; P<sub>2</sub> (x) is a linear combination of p<sub>1</sub>=x+1, p<sub>2</sub>=x<sup>2</sup>+x+1, for α<sub>1</sub>=2&isin;R, α<sub>2</sub>=1&isin;R, s.t. 
 α<sub>1</sub>p<sub>1</sub>+α<sub>2</sub>p<sub>2</sub>=2(x+1)+1(x<sup>2</sup>+x+1)=(2x+2)+ (x<sup>2</sup>+x+1)=x<sup>2</sup>+3x+3
 ### 4. Linear span:
 Case (i) Let φ &ne; S &sube; V. Then the linear span of S consists of all possible linear combinations of elements of S.  It is denoted by L(S). Thus L(S)= { α<sub>1</sub>x<sub>1</sub>+ α<sub>2</sub>x<sub>2</sub>+ …+α<sub>k</sub>x<sub>k</sub> : x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>k</sub> &isin; V, α<sub>1</sub>, α<sub>2</sub>, …, α<sub>k</sub> &isin; F}.
