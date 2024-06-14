@@ -168,6 +168,9 @@ function point1(){
     document.getElementById("note1").innerHTML="Note: Please reload the page, to consider another S."
 }
 
+/*------------------------------First Graph End---------------------------------------------------------------*/
+
+/*------------------------------Second Graph ---------------------------------------------------------------*/
 
 
 
@@ -310,9 +313,12 @@ function drawCrds(x,y,bg){
     ctx2.arc(x, y, pointSize, 0, Math.PI * 2, true); // Draw a point using the arc function of the canvas with a point structure.
     ctx2.fill(); // Close the path and fill.
 }
+/*------------------------------Second Graph End---------------------------------------------------------------*/
 
 
 
+
+/*------------------------------Third Graph---------------------------------------------------------------*/
 
 
 var ncanvas = document.getElementById("multicanvas");
@@ -454,7 +460,7 @@ function drwCrds(x,y,bg){
     ctxn.fill(); // Close the path and fill.
 }
 
-
+/*------------------------------Third Graph End---------------------------------------------------------------*/
 
 
 
@@ -476,7 +482,10 @@ var canvasheight = canva.height;
 var numlines_x = Math.floor(canvaswidth/gridsize);
 var numlines_y = Math.floor(canvasheight/gridsize);
 
-// Draw grid lines along X-axis
+
+//this is in second graphs first sub graph
+// Draw grid lines along X-axis 
+
 for(var i=0; i<=numlines_x; i++) {
     cntx.beginPath();
     cntx.lineWidth = 1;
@@ -885,39 +894,38 @@ function pt1(){
     document.getElementById("btn4").disabled=false;
 
     document.getElementById("note3").innerHTML="Note: Please reload the page, to consider another x."
+    
+    
 }
 
 
 
 function pt2(){
 
-    cdn3=Math.floor(Math.random() * (6-1)+1);
-    cdn4=Math.floor(Math.random() * (6-1)+1);
-    ccdn1=0.2*cdn1
-    ccdn2=0.2*cdn2
+    cdn3=Math.floor(Math.random() * (30-1)+1);
+    cdn4=Math.floor(Math.random() * (30-1)+1);
+    ccdn1=0.1*cdn1
+    ccdn2=0.1*cdn2
     cdn5=ccdn1*cdn3
     cdn6=ccdn2*cdn3
     
     drawCoordnts(cdn5*grdsize,-cdn6*grdsize,'blue');
-
     document.getElementById('spannline').innerHTML=("L(S) = line");
+    
 
 }
 
-function fillarea(){
-    ctxt.fillStyle = "rgba(0, 100, 200, 0.1)";
-    ctxt.fillRect(-4*grdsze,-7*grdsze,cvs_width, cvs_height);
-}
+
 
 
 function pt3(){
    
-    crd5=Math.floor(Math.random() * (10-1)+1);
-    crd6=Math.floor(Math.random() * (10-1)+1);
-    drawCoordt(crd5*grdsze,crd6*grdsze,'indigo');
+    var crd5 = Math.floor(Math.random() * 20 - 10);
+    var crd6 = Math.floor(Math.random() * 20 - 10);
+    drawCoordt(crd5 * grd_size, crd6 * grd_size, 'indigo');
+    document.getElementById('spannRn').innerHTML = "L(S) = R<sup>2</sup>";
     fillarea();
-
-    document.getElementById('spannRn').innerHTML=("L(S) = R<sup>2</sup>");
+    
 }
  
 var grd_size = 10;
@@ -937,7 +945,7 @@ var cnvs_height = cnvs.height;
 
 var nux = Math.floor(cnvs_width/grd_size);
 var nuy = Math.floor(cnvs_height/grd_size);
-
+//this is second graphs second sub graph
 // Draw grid lines along X-axis
 for(var i=0; i<=nux; i++) {
     context.beginPath();
@@ -1056,7 +1064,7 @@ for(i=1; i<(nux - x_grid_lines); i++) {
     context.fillText(-y_start.number*i + y_start.suffix, 8, grd_size*i+3);
 }
 
-
+//this is second graphs second sub graph funct
 function drawCoordnt(x,y,bg){
     var ptSize = 3; // Change according to the size of the point.
    
@@ -1084,6 +1092,10 @@ var canv_height = canv.height;
 
 var nx = Math.floor(canv_width/grdsze);
 var ny = Math.floor(canv_height/grdsze);
+
+
+
+
 
 // Draw grid lines along X-axis
 for(var i=0; i<=nx; i++) {
@@ -1185,6 +1197,7 @@ for(i=1; i<(x_distance_grid_lines); i++) {
     ctxt.fillText(y_start_pt.number*i + y_start_pt.suffix, 8, -grdsze*i+3);
 }
 
+//imp needed
 // Ticks marks along the negative Y-axis
 // Negative Y-axis of graph is positive Y-axis of the canvas
 for(i=1; i<(nx - x_distance_grid_lines); i++) {
@@ -1203,7 +1216,7 @@ for(i=1; i<(nx - x_distance_grid_lines); i++) {
     ctxt.fillText(-y_start_pt.number*i + y_start_pt.suffix, 8, grdsze*i+3);
 }
 
-
+//imp needed
 function drawCoordt(x,y,bg){
     var ptSize = 3; // Change according to the size of the point.
    
