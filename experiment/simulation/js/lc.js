@@ -1,84 +1,206 @@
-function abgzero(){
-        document.getElementById('abgzero').innerHTML = ("0(1 , 2) + 0(2 , 4) + 0(3 , 6) = (0 , 0)");
-        drawCoordnts(0*grdsize,0*grdsize,"blue",3);
-    }
-    function abgpos(){
-        document.getElementById('abgpos').innerHTML = ("4(1 , 2) + -2(2 , 4) + 1.64(3 , 6) = (4.92, 9.84)");
-        drawCoordnts(4.92*grdsize , -9.84*grdsize,"brown",3);
-    }
-    function abgneg(){
-        document.getElementById('abgneg').innerHTML = ("-1.65(1 , 2) + 0(2 , 4) + -0.78(3 , 6)= (-3.99 , -7.98)");
-        drawCoordnts(-3.99*grdsize, 7.98*grdsize,"darkviolet",3);
-    }
+    // function abgzero(){
+    //     document.getElementById('abgzero').innerHTML = ("0(1 , 2) + 0(2 , 4) + 0(3 , 6) = (0 , 0)");
+    //     drawCoordnts(0*grdsize,0*grdsize,"blue",3);
+    // }
+    // function abgpos(){
+    //     document.getElementById('abgpos').innerHTML = ("4(1 , 2) + -2(2 , 4) + 1.64(3 , 6) = (4.92, 9.84)");
+    //     drawCoordnts(4.92*grdsize , -9.84*grdsize,"brown",3);
+    // }
+    // function abgneg(){
+    //     document.getElementById('abgneg').innerHTML = ("-1.65(1 , 2) + 0(2 , 4) + -0.78(3 , 6)= (-3.99 , -7.98)");
+    //     drawCoordnts(-3.99*grdsize, 7.98*grdsize,"darkviolet",3);
+    // }
 
-    function abgzero2(){
-        document.getElementById('abgzero2').innerHTML = ("0(1 , 2) + 0(5 , 3) + 0(6 , 2) = (0 , 0)");
-        drawCoordnes(0*grdsize,0*grdsize,"blue",3);
-    }
-    function abgpos2(){
-        document.getElementById('abgpos2').innerHTML = ("1(1 , 2) + -1(5 , 3) + 0.56(6 , 2) = (-0.64, 0.12)");
-        drawCoordnes(-0.64*grdsize , -0.12*grdsize,"brown",3);
-    }
-    function abgneg2(){
-        document.getElementById('abgneg2').innerHTML = ("-4.25(1 , 2) + 1.2(5 , 3) + 2(6 , 2)= (13.75 , -0.9)");
-        drawCoordnes(13.75*grdsize, 0.9*grdsize,"darkviolet",3);
-    }
-
-
-	function azerobzero(){
-		document.getElementById('azerobzero').innerHTML = ("0(1 , 2) + 0(2 , 4) = (0 , 0)");
-		drawCoords(0*gridsize,0*gridsize,"blue",3);
-	}
-	function azerobnum(){
-		document.getElementById('azerobnum').innerHTML = ("0(1 , 2) + -2(2 , 4) = (-4 , -8)");
-		drawCoords(-4*gridsize , 8*gridsize,"brown",3);
-	}
-	function anumbnum(){
-		document.getElementById('anumbnum').innerHTML = ("-1.56(1 , 2) + 2.63(2 , 4) = (3.7 , 7.4)");
-		drawCoords(3.7*gridsize, -7.4*gridsize,"darkviolet",3);
-	}
-
-    function abzero(){
-        document.getElementById('abzero').innerHTML = ("0(1 , 2) + 0(6 , 3) = (0 , 0)");
-        drawCoordns(0*gridsize,0*gridsize,"blue",3);
-    }
-    function abpos(){
-        document.getElementById('abpos').innerHTML = ("1(1 , 2) + 2(6 , 3) = (13 , 8)");
-        drawCoordns(13*gridsize , -8*gridsize,"brown",3);
-    }
-    function abneg(){
-        document.getElementById('abneg').innerHTML = ("-0.56(1 , 2) + 1.63(6 , 3) = (9.22 , 3.77)");
-        drawCoordns(9.22*gridsize, -3.77*gridsize,"darkviolet",3);
-    }
+    // function abgzero2(){
+    //     document.getElementById('abgzero2').innerHTML = ("0(1 , 2) + 0(5 , 3) + 0(6 , 2) = (0 , 0)");
+    //     drawCoordnes(0*grdsize,0*grdsize,"blue",3);
+    // }
+    // function abgpos2(){
+    //     document.getElementById('abgpos2').innerHTML = ("1(1 , 2) + -1(5 , 3) + 0.56(6 , 2) = (-0.64, 0.12)");
+    //     drawCoordnes(-0.64*grdsize , -0.12*grdsize,"brown",3);
+    // }
+    // function abgneg2(){
+    //     document.getElementById('abgneg2').innerHTML = ("-4.25(1 , 2) + 1.2(5 , 3) + 2(6 , 2)= (13.75 , -0.9)");
+    //     drawCoordnes(13.75*grdsize, 0.9*grdsize,"darkviolet",3);
+    // }
 
 
+	// // function azerobzero(){
+	// // 	document.getElementById('azerobzero').innerHTML = ("0(1 , 2) + 0(2 , 4) = (0 , 0)");
+	// // 	drawCoords(0*gridsize,0*gridsize,"blue",3);
+	// // }
+	// // function azerobnum(){
+	// // 	document.getElementById('azerobnum').innerHTML = ("0(1 , 2) + -2(2 , 4) = (-4 , -8)");
+	// // 	drawCoords(-4*gridsize , 8*gridsize,"brown",3);
+	// // }
+	// // function anumbnum(){
+	// // 	document.getElementById('anumbnum').innerHTML = ("-1.56(1 , 2) + 2.63(2 , 4) = (3.7 , 7.4)");
+	// // 	drawCoords(3.7*gridsize, -7.4*gridsize,"darkviolet",3);
+	// // }
 
-	function alphazero(){
-		document.getElementById('alphazero').innerHTML = ("0(1 , 2) = (0 , 0)");
-		drawCoordinates(0*grid_size,0*grid_size,"blue",3);
-	}
-	function alphaptwo(){
-		document.getElementById('alphaptwo').innerHTML = ("2(1 , 2) = (2 , 4)");
-		drawCoordinates(2*grid_size , -4*grid_size,"darkviolet",3);
-	}
-	function alphaneg(){
-		document.getElementById('alphaneg').innerHTML = ("-3.003(1 , 2) = (-3.003 , -6.006)");
-		drawCoordinates(-3.003*grid_size , 6.006*grid_size,"darkorange",3);
-	}
+    // function abzero(){
+    //     document.getElementById('abzero').innerHTML = ("0(1 , 2) + 0(6 , 3) = (0 , 0)");
+    //     drawCoordns(0*gridsize,0*gridsize,"blue",3);
+    // }
+    // function abpos(){
+    //     document.getElementById('abpos').innerHTML = ("1(1 , 2) + 2(6 , 3) = (13 , 8)");
+    //     drawCoordns(13*gridsize , -8*gridsize,"brown",3);
+    // }
+    // function abneg(){
+    //     document.getElementById('abneg').innerHTML = ("-0.56(1 , 2) + 1.63(6 , 3) = (9.22 , 3.77)");
+    //     drawCoordns(9.22*gridsize, 5*gridsize,"darkviolet",3);
+    // }
 
-    function azero(){
-        document.getElementById('azero').innerHTML = ("0(0 , 0) = (0 , 0)");
-        drawCoordis(0*grid_size,0*grid_size,"blue",3);
+
+
+	// function alphazero(){
+	// 	document.getElementById('alphazero').innerHTML = ("0(1 , 2) = (0 , 0)");
+	// 	drawCoordinates(0*grid_size,0*grid_size,"blue",3);
+	// }
+	// function alphaptwo(){
+	// 	document.getElementById('alphaptwo').innerHTML = ("2(1 , 2) = (2 , 4)");
+	// 	drawCoordinates(2*grid_size , -4*grid_size,"darkviolet",3);
+	// }
+	// function alphaneg(){
+	// 	document.getElementById('alphaneg').innerHTML = ("-3.003(1 , 2) = (-3.003 , -6.006)");
+	// 	drawCoordinates(-3.003*grid_size , 6.006*grid_size,"darkorange",3);
+	// }
+
+    // function azero(){
+    //     document.getElementById('azero').innerHTML = ("0(0 , 0) = (0 , 0)");
+    //     drawCoordis(0*grid_size,0*grid_size,"blue",3);
+    // }
+    // function apos(){
+    //     document.getElementById('apos').innerHTML = ("6.94(0 , 0) = (0 , 0)");
+    //     drawCoordis(0*grid_size , 0*grid_size,"darkorange",2);
+    // }
+    // function aneg(){
+    //     document.getElementById('aneg').innerHTML = ("-7(0 , 0) = (0 , 0)");
+    //     drawCoordis(0*grid_size , 0*grid_size,"darkviolet",1);
+    // }
+
+    function handleSubmit(event) {
+        event.preventDefault(); // Prevent the form from submitting the traditional way
+        const alphaValue = document.getElementById('alphavalues').value;
+        
+        if(alphaValue == "null"){
+            alert("please first select α");
+        }
+       else if (alphaValue === "0") {
+            document.getElementById('res').innerHTML = "<span style='color: blue;'>&alpha;.x = 0(1 , 2) = (0 , 0)</span>";
+            drawCoordinates(0*grid_size,0*grid_size,"blue",3);
+        } else if (alphaValue === "2") {
+            document.getElementById('res').innerHTML = "<span style='color: darkviolet;'>&alpha;.x = 2(1 , 2) = (2 , 4)</span>";
+            drawCoordinates(2*grid_size , -4*grid_size,"darkviolet",3);
+        } else if (alphaValue === "-3.003") {
+            document.getElementById('res').innerHTML = "<span style='color: darkorange;'>&alpha;.x = -3.003(1 , 2) = (-3.003 , -6.006)</span>";
+            drawCoordinates(-3.003*grid_size , 6.006*grid_size,"darkorange",3);
+        }
+
+       
     }
-    function apos(){
-        document.getElementById('apos').innerHTML = ("6.94(0 , 0) = (0 , 0)");
-        drawCoordis(0*grid_size , 0*grid_size,"darkorange",2);
+    function handleSubmit2(event) {
+        event.preventDefault(); // Prevent the form from submitting the traditional way
+        const alphaValue = document.getElementById('alphavalues2').value;
+        
+        if(alphaValue == "null"){
+            alert("please first select α");
+        }
+        else if (alphaValue === "0") {
+            document.getElementById('res2').innerHTML = "<span style='color: blue;'>&alpha;,x = 0(0 , 0) = (0 , 0)</span>";
+            drawCoordis(0*grid_size,0*grid_size,"blue",3);
+        } else if (alphaValue === "6.94") {
+            document.getElementById('res2').innerHTML = "<span style='color: darkorange;'>&alpha;,x = 6.94(0 , 0) = (0 , 0)</span>";
+            drawCoordis(0*grid_size , 0*grid_size,"darkorange",2);
+        } else if (alphaValue === "-7") {
+            document.getElementById('res2').innerHTML = "<span style='color: darkviolet;'>&alpha;,x = -7(0 , 0) = (0 , 0)</span>";
+            drawCoordis(0*grid_size , 0*grid_size,"darkviolet",1);
+        }
+
+       
     }
-    function aneg(){
-        document.getElementById('aneg').innerHTML = ("-7(0 , 0) = (0 , 0)");
-        drawCoordis(0*grid_size , 0*grid_size,"darkviolet",1);
+    function handleSubmit3(event) {
+        event.preventDefault(); // Prevent the form from submitting the traditional way
+        const alphaValue = document.getElementById('alphavalues3').value;
+        
+        if(alphaValue == "null"){
+            alert("please first select α, \u03B2.");
+        }
+        else if (alphaValue === "0") {
+            document.getElementById('res3').innerHTML = "<span style='color: blue;'>&alpha;.x + &beta;.y = (0 , 0)</span>";
+            drawCoords(0*gridsize,0*gridsize,"blue",3);
+        } else if (alphaValue === "1") {
+            document.getElementById('res3').innerHTML = "<span style='color: brown;'>&alpha;.x + &beta;.y = (-4 , -8)</span>";
+            drawCoords(-4*gridsize , 8*gridsize,"brown",3);
+        } else if (alphaValue === "2") {
+            document.getElementById('res3').innerHTML = "<span style='color: darkviolet;'>&alpha;.x + &beta;.y = (3.7 , 7.4)</span>";
+            drawCoords(3.7*gridsize, -7.4*gridsize,"darkviolet",3);
+        }
+
+       
+    }
+    function handleSubmit4(event) {
+        event.preventDefault(); // Prevent the form from submitting the traditional way
+        const alphaValue = document.getElementById('alphavalues4').value;
+        
+        if(alphaValue == "null"){
+            alert("please first select α, \u03B2.");
+        }
+        else if (alphaValue === "0") {
+            document.getElementById('res4').innerHTML = "<span style='color: blue;'>&alpha;.x + &beta;.y = (0 , 0)</span>";
+            drawCoordns(0*gridsize,0*gridsize,"blue",3);
+        } else if (alphaValue === "1") {
+            document.getElementById('res4').innerHTML = "<span style='color: brown;'>&alpha;.x + &beta;.y = (13 , 6.4)</span>";
+            drawCoordns(13*gridsize , -6.4*gridsize,"brown",3);
+        } else if (alphaValue === "2") {
+            document.getElementById('res4').innerHTML = "<span style='color: darkviolet;'>&alpha;.x + &beta;.y = (9.22 , 4.60)</span>";
+            drawCoordns(9.22*gridsize, -4.60*gridsize,"darkviolet",3);
+        }
+
+       
     }
 
+    function handleSubmit5(event) {
+        event.preventDefault(); // Prevent the form from submitting the traditional way
+        const alphaValue = document.getElementById('alphavalues5').value;
+        
+        if(alphaValue == "null"){
+            alert("please first select α, \u03B2, \u03B3.");
+        }
+        else if (alphaValue === "0") {
+            document.getElementById('res5').innerHTML = "<span style='color: blue;'>&alpha;.x + &beta;.y + &gamma;.z = (0 , 0)</span>";
+            drawCoordnts(0*grdsize,0*grdsize,"blue",3);
+        } else if (alphaValue === "1") {
+            document.getElementById('res5').innerHTML = "<span style='color: brown;'>&alpha;.x + &beta;.y + &gamma;.z = (4.92, 9.84)</span>";
+            drawCoordnts(4.92*grdsize , -9.84*grdsize,"brown",3);
+        } else if (alphaValue === "2") {
+            document.getElementById('res5').innerHTML = "<span style='color: darkviolet;'>&alpha;.x + &beta;.y + &gamma;.z = (-3.99 , -7.98)</span>";
+            drawCoordnts(-3.99*grdsize, 7.98*grdsize,"darkviolet",3);
+        }
+
+       
+    }
+
+    function handleSubmit6(event) {
+        event.preventDefault(); // Prevent the form from submitting the traditional way
+        const alphaValue = document.getElementById('alphavalues6').value;
+        
+        if(alphaValue == "null"){
+            alert("please first select α, \u03B2, \u03B3.");
+        }
+        else if (alphaValue === "0") {
+            document.getElementById('res6').innerHTML = "<span style='color: blue;'>&alpha;.x + &beta;.y + &gamma;.z = (0 , 0)</span>";
+            drawCoordnes(0*grdsize,0*grdsize,"blue",3);
+        } else if (alphaValue === "1") {
+            document.getElementById('res6').innerHTML = "<span style='color: brown;'>&alpha;.x + &beta;.y + &gamma;.z = (-0.64, 0.12)</span>";
+            drawCoordnes(-0.64*grdsize , -0.12*grdsize,"brown",3);
+        } else if (alphaValue === "2") {
+            document.getElementById('res6').innerHTML = "<span style='color: darkviolet;'>&alpha;.x + &beta;.y + &gamma;.z = (13.75 , 4.6)</span>";
+            drawCoordnes(13.75*grdsize,  -4.6*grdsize,"darkviolet",3);
+        }
+
+       
+    }
 
 
 
