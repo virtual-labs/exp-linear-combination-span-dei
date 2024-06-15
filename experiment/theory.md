@@ -5,16 +5,16 @@ Let x<sub>1</sub>, x<sub>2</sub>, …, x<sub>k</sub> &isin; V and α<sub>1</sub>
 Consider the vector spaces R<sup>2</sup> over R
    
 Then some linear combinations of (3, 0), (1, 4)&isin;R<sup>2</sup> are given below: <br>
-Case (i) α<sub>1</sub>=2, α<sub>2</sub>=1&isin;R <br>
+Case (i) α<sub>1</sub>=2&isin;R, α<sub>2</sub>=1&isin;R <br>
 α<sub>1</sub>x<sub>1</sub>+α<sub>2</sub>x<sub>2</sub>= 2(3, 0) +1(1, 4) =(6, 0)+(1, 4)=(7, 4)
 
-Case (ii) α<sub>1</sub>=1, α<sub>2</sub>=0&isin;R <br>
+Case (ii) α<sub>1</sub>=1&isin;R, α<sub>2</sub>=0&isin;R <br>
 α<sub>1</sub>x<sub>1</sub>+α<sub>2</sub>x<sub>2</sub>= 1(3, 0) + 0(1, 4) = (3, 0)+(0, 0) = (3, 0)
 
-Case (iii) α<sub>1</sub>=0, α<sub>2</sub>=1&isin;R <br>
+Case (iii) α<sub>1</sub>=0&isin;R, α<sub>2</sub>=1&isin;R <br>
 α<sub>1</sub>x<sub>1</sub>+α<sub>2</sub>x<sub>2</sub>= 0(3, 0)+1(1, 4)=(0, 0)+(1, 4)=(1, 4)
 
-Case (iv) α<sub>1</sub>=-2, α<sub>2</sub>=√2&isin;R <br>
+Case (iv) α<sub>1</sub>=-2&isin;R, α<sub>2</sub>=√2&isin;R <br>
 α<sub>1</sub>x<sub>1</sub>+α<sub>2</sub>x<sub>2</sub>= -2(3, 0)+ √2(1, 4)=(-6, 0)+(√2, 4√2)=(√2-6, 4√2) 
 ### 3. Example:
 Consider the vector space (P<sub>2</sub> (x), +, .) over R denoted by P<sub>2</sub> (x)  where P<sub>2</sub> (x)={ a<sub>2</sub>x<sup>2</sup>+a<sub>1</sub>x<sup>1</sup>+a<sub>0</sub>, where a<sub>1</sub>, a<sub>2</sub>, a<sub>0</sub> &isin; R }.
