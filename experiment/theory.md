@@ -38,11 +38,11 @@ Let R<sup>2</sup> be the vector space over R where S &sube; R<sup>2</sup>. Then
 
 (i)	S={(1, 0)}does not span R<sup>2</sup>, i.e. L(S) &ne; R<sup>2</sup>
 Justification: By definition, L(S)={x(1, 0)|x &isin; R}={(x, 0)|x &isin; R}. We show that (1, 1)  &notin;  L(S) because if not, then (1, 1) &isin; L(S) which implies (1, 1)=α(x, 0)=(αx, 0) i.e. 1=0, a contradiction. Thus (1, 1) &notin; L(S). Hence L(S) &ne; R<sup>2</sup>.
-
+![Examples-I](images/exp3image3.PNG "Examples-I")<br>
 (ii)	S={(1, 0),(1, 1)} spans R<sup>2</sup>, i.e. S is a spanning set of R<sup>2</sup>, i.e. L(S)=R<sup>2</sup>.
 Justification: By definition, L(S)={x(1, 0)+y(1, 1)|x, y  &isin; R}={(x, 0)+(y, y)|x, y &isin; R}={(x+y, y)|x, y &isin; R}.
 Clearly L(S) &sube; R<sup>2</sup>. We show that R<sup>2</sup> &sube; L(S). Let (a, b)  &isin; R2. Then (a, b)=α(1, 0)+β(1, 1) for some α, β &isin; R. Therefore α=a-b and β=b. Clearly α(1, 0)+β(1, 1)=(a, b). Thus (a, b) &isin; L(S). So that R<sup>2</sup> &sube; L(S). Hence L(S)=R<sup>2</sup>.
-
+![Examples-I](images/exp3image3.PNG "Examples-I")<br>
 (iii)	S={(1, 0), (2, 0)} does not span R<sup>2</sup> i.e. L(S) &ne; R<sup>2</sup>.
 Justification: By definition, L(S)={x(1, 0)+y(2, 0)|x, y &isin; R}={(x, 0)+(2y, 0)|x, y &isin; R}={(x+2y, 0)|x, y &isin; R}.
 We show that (0, 1)  &notin; L(S). For if (0, 1) &isin; L(S), then (0, 1)=α(1, 0)+β(2, 0) for some α, β &isin; R. Therefore 1=0, a contradiction. Thus (0, 1) &notin; L(S). Hence L(S) &ne; R<sup>2</sup>
