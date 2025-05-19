@@ -28,11 +28,11 @@ Then x<sup>2</sup>+3x+3 &isin; P<sub>2</sub> (x) is a linear combination of p<su
 ### 4. Linear span:
 Case (i) Let φ &ne; S &sube; V. Then the linear span of S consists of all possible linear combinations of elements of S.  It is denoted by L(S). Thus L(S)= { α<sub>1</sub>x<sub>1</sub>+ α<sub>2</sub>x<sub>2</sub>+ …+α<sub>k</sub>x<sub>k</sub> : x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>k</sub> &isin; V, α<sub>1</sub>, α<sub>2</sub>, …, α<sub>k</sub> &isin; F}.
 
+![Linear span](images/exp3image1.PNG "Linear span")<br>
 Case (ii) If S= φ, L(S) is defined to be {0}.
-
 ### 5. Spanning set:
 If L(S)=V, that is if V is the linear span of S then, S is called a spanning set of V and it is said that S spans V.
-
+![Linear span](images/exp3image2.PNG "Linear span")<br>
 ### 6. Examples-I:
 Let R<sup>2</sup> be the vector space over R where S &sube; R<sup>2</sup>. Then
 
