@@ -36,7 +36,7 @@ If L(S)=V, that is if V is the linear span of S then, S is called a spanning set
 ### 6. Examples-I:
 Let R<sup>2</sup> be the vector space over R where S &sube; R<sup>2</sup>. Then
 
-(i)	S={(1, 0)}does not span R<sup>2</sup>, i.e. L(S) &ne; R<sup>2</sup>
+(i)	S={(1, 0)} does not span R<sup>2</sup>, i.e. L(S) &ne; R<sup>2</sup>
 Justification: By definition, L(S)={x(1, 0)|x &isin; R}={(x, 0)|x &isin; R}. We show that (1, 1)  &notin;  L(S) because if not, then (1, 1) &isin; L(S) which implies (1, 1)=α(x, 0)=(αx, 0) i.e. 1=0, a contradiction. Thus (1, 1) &notin; L(S). Hence L(S) &ne; R<sup>2</sup>.
 ![Examples-I](images/exp3NewImg1.1.png "Examples-I")<br>
 (ii)	S={(1, 0),(1, 1)} spans R<sup>2</sup>, i.e. S is a spanning set of R<sup>2</sup>, i.e. L(S)=R<sup>2</sup>.
