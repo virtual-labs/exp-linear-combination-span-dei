@@ -28,21 +28,22 @@ Then x<sup>2</sup>+3x+3 &isin; P<sub>2</sub> (x) is a linear combination of p<su
 ### 4. Linear span:
 Case (i) Let φ &ne; S &sube; V. Then the linear span of S consists of all possible linear combinations of elements of S.  It is denoted by L(S). Thus L(S)= { α<sub>1</sub>x<sub>1</sub>+ α<sub>2</sub>x<sub>2</sub>+ …+α<sub>k</sub>x<sub>k</sub> : x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>k</sub> &isin; V, α<sub>1</sub>, α<sub>2</sub>, …, α<sub>k</sub> &isin; F}.
 
+![Linear span](images/exp3newimage1.PNG "Linear span")<br>
 Case (ii) If S= φ, L(S) is defined to be {0}.
-
 ### 5. Spanning set:
 If L(S)=V, that is if V is the linear span of S then, S is called a spanning set of V and it is said that S spans V.
-
+![Linear span](images/exp3newimage2.PNG "Linear span")<br>
 ### 6. Examples-I:
 Let R<sup>2</sup> be the vector space over R where S &sube; R<sup>2</sup>. Then
 
-(i)	S={(1, 0)}does not span R<sup>2</sup>, i.e. L(S) &ne; R<sup>2</sup>
+(i)	S={(1, 0)} does not span R<sup>2</sup>, i.e. L(S) &ne; R<sup>2</sup>
 Justification: By definition, L(S)={x(1, 0)|x &isin; R}={(x, 0)|x &isin; R}. We show that (1, 1)  &notin;  L(S) because if not, then (1, 1) &isin; L(S) which implies (1, 1)=α(x, 0)=(αx, 0) i.e. 1=0, a contradiction. Thus (1, 1) &notin; L(S). Hence L(S) &ne; R<sup>2</sup>.
-
-(ii)	S={(1, 0),(1, 1)} spans R<sup>2</sup>, i.e. S is a spanning set of R<sup>2</sup>, i.e. L(S)=R<sup>2</sup>.
+![Examples-I](images/exp3NewImg1.1.png "Examples-I")<br>
+(ii)	S={(1, 0), (1, 1)} spans R<sup>2</sup>, i.e. S is a spanning set of R<sup>2</sup>, i.e. L(S)=R<sup>2</sup>.
 Justification: By definition, L(S)={x(1, 0)+y(1, 1)|x, y  &isin; R}={(x, 0)+(y, y)|x, y &isin; R}={(x+y, y)|x, y &isin; R}.
 Clearly L(S) &sube; R<sup>2</sup>. We show that R<sup>2</sup> &sube; L(S). Let (a, b)  &isin; R2. Then (a, b)=α(1, 0)+β(1, 1) for some α, β &isin; R. Therefore α=a-b and β=b. Clearly α(1, 0)+β(1, 1)=(a, b). Thus (a, b) &isin; L(S). So that R<sup>2</sup> &sube; L(S). Hence L(S)=R<sup>2</sup>.
 
+![Examples-I](images/exp3NewImg2.1.png "Examples-I")<br>
 (iii)	S={(1, 0), (2, 0)} does not span R<sup>2</sup> i.e. L(S) &ne; R<sup>2</sup>.
 Justification: By definition, L(S)={x(1, 0)+y(2, 0)|x, y &isin; R}={(x, 0)+(2y, 0)|x, y &isin; R}={(x+2y, 0)|x, y &isin; R}.
 We show that (0, 1)  &notin; L(S). For if (0, 1) &isin; L(S), then (0, 1)=α(1, 0)+β(2, 0) for some α, β &isin; R. Therefore 1=0, a contradiction. Thus (0, 1) &notin; L(S). Hence L(S) &ne; R<sup>2</sup>
