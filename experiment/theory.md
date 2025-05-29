@@ -37,16 +37,18 @@ If L(S)=V, that is if V is the linear span of S then, S is called a spanning set
 Let R<sup>2</sup> be the vector space over R where S &sube; R<sup>2</sup>. Then
 
 (i)	S={(1, 0)} does not span R<sup>2</sup>, i.e. L(S) &ne; R<sup>2</sup>
-Justification: By definition, L(S)={x(1, 0)|x &isin; R}={(x, 0)|x &isin; R}. We show that (1, 1)  &notin;  L(S) because if not, then (1, 1) &isin; L(S) which implies (1, 1)=α(x, 0)=(αx, 0) i.e. 1=0, a contradiction. Thus (1, 1) &notin; L(S). Hence L(S) &ne; R<sup>2</sup>. In the adjoining figure red line represents the span.
+Justification: By definition, L(S)={x(1, 0)|x &isin; R}={(x, 0)|x &isin; R}. We show that (1, 1)  &notin;  L(S) because if not, then (1, 1) &isin; L(S) which implies (1, 1)=α(x, 0)=(αx, 0) i.e. 1=0, a contradiction. Thus (1, 1) &notin; L(S). Hence L(S) &ne; R<sup>2</sup>. In the adjoining figure(fig.1) red line represents the span.
 
 ![Examples-I](images/exp3.2.PNG "Examples-I")<br>
+&emsp; &emsp; &emsp; &emsp;     Fig.1<br>
 <b>L(S)=Line</b><br>
 
 (ii)	S={(1, 0), (1, 1)} spans R<sup>2</sup>, i.e. S is a spanning set of R<sup>2</sup>, i.e. L(S)=R<sup>2</sup>.
 Justification: By definition, L(S)={x(1, 0)+y(1, 1)|x, y  &isin; R}={(x, 0)+(y, y)|x, y &isin; R}={(x+y, y)|x, y &isin; R}.
-Clearly L(S) &sube; R<sup>2</sup>. We show that R<sup>2</sup> &sube; L(S). Let (a, b)  &isin; R2. Then (a, b)=α(1, 0)+β(1, 1) for some α, β &isin; R. Therefore α=a-b and β=b. Clearly α(1, 0)+β(1, 1)=(a, b). Thus (a, b) &isin; L(S). So that R<sup>2</sup> &sube; L(S). Hence L(S)=R<sup>2</sup>. In the adjoining figure red lines represents the span which equals to R<sup>2</sup> as (1, 0) is off the line.
+Clearly L(S) &sube; R<sup>2</sup>. We show that R<sup>2</sup> &sube; L(S). Let (a, b)  &isin; R2. Then (a, b)=α(1, 0)+β(1, 1) for some α, β &isin; R. Therefore α=a-b and β=b. Clearly α(1, 0)+β(1, 1)=(a, b). Thus (a, b) &isin; L(S). So that R<sup>2</sup> &sube; L(S). Hence L(S)=R<sup>2</sup>. In the adjoining figure(fig.2) red lines represents the span which equals to R<sup>2</sup> as (1, 0) is off the line. 
 
 ![Examples-I](images/exp3.1.PNG "Examples-I")<br>
+&emsp; &emsp; &emsp; &emsp;     Fig.2<br>
 <b>L(S)=Red lines=R<sup>2</sup></b><br>
 
 (iii)	S={(1, 0), (2, 0)} does not span R<sup>2</sup> i.e. L(S) &ne; R<sup>2</sup>.
