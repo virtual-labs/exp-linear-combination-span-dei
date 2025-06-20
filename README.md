@@ -8,7 +8,7 @@
 
 ### About the Experiment 
 
-In this experiment, understanding of mathematical terms like linear combination and span has been established through examples and schematics. Hands on practice is provided in simulation.
+In this experiment, concepts of mathematical terms like linear combination and span have been established through examples and schematics. Hands on practice is provided in simulation. 
 
 <b>Name of Developer | <b> Prof. Gunjan Agrawal
 :--|:--|
