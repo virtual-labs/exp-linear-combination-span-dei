@@ -1,1 +1,1 @@
-To understand the notion of span which is used in defining basis of a vector space
+To understand the concept of span, which is used in defining the basis of a vector space.
