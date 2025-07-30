@@ -40,7 +40,7 @@ Let R<sup>2</sup> be the vector space over R where S &sube; R<sup>2</sup>. Then
 Justification: By definition, L(S)={x(1, 0)|x &isin; R}={(x, 0)|x &isin; R}. We show that (1, 1)  &notin;  L(S) because if not, then (1, 1) &isin; L(S) which implies (1, 1)=α(x, 0)=(αx, 0) i.e. 1=0, a contradiction. Thus (1, 1) &notin; L(S). Hence L(S) &ne; R<sup>2</sup>. In the adjoining figure (Fig. 1) red line represents the span of S.
 
 ![Examples-I](images/exp3.2.PNG "Examples-I")<br>
-<b>Fig. 1: L(S)=Line</b><br>
+<b>Fig. 1: L(S)=Red line</b><br>
 
 (ii)	S={(1, 1), (1, 0)} spans R<sup>2</sup>, i.e. S is a spanning set of R<sup>2</sup>, i.e. L(S)=R<sup>2</sup>.
 Justification: By definition, L(S)={x(1, 0)+y(1, 1)|x, y  &isin; R}={(x, 0)+(y, y)|x, y &isin; R}={(x+y, y)|x, y &isin; R}.
