@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Consider the vector space R<sup>2</sup> over R. If(x, y) = α(2,3) and α = -4, then find the value of (x, y)",
+      "question": "Consider the vector space $R$<sup>2</sup> over $R$. If$(x, y)$ = α(2,3) and α = -4, then find the value of $(x, y)$",
       "answers": {
         "a": "(2, 3)",
         "b": "(-8, 12)",
@@ -19,12 +19,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Let W be a subspace of a vector space R<sup>3</sup> over R. For x, y, z &isin; W, which of the following is true?",
+      "question": "Let $W$ be a subspace of a vector space $R$<sup>3</sup> over $R$. For $x, y, z$ &isin; $W$, which of the following is true?",
       "answers": {
-        "a": "x+y &notin; W, but 3x+y+z &isin; W",
-        "b": "z+2y &notin; W, but 3x-5y+9z &isin; W",
-        "c": "2x+(y+2z) &notin; W, but x+(-y+7z) &notin; W",
-        "d": "7x+y-2z &isin; W, and -x+y+z &isin; W"
+        "a": "$x+y$ &notin; $W$, but $3x+y+z$ &isin; $W$",
+        "b": "$z+2y$ &notin; $W$, but $3x-5y+9z$ &isin; $W$",
+        "c": "$2x+(y+2z)$ &notin; $W$, but $x+(-y+7z)$ &notin; $W$",
+        "d": "$7x+y-2z$ &isin; $W,$ and $-x+y+z$ &isin; $W$"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -36,9 +36,9 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Let S be a subspace of a vector space over R. For S={0}, K &equiv; {αx+βy: x, y &isin; S and α, β &isin; R} equals",
+      "question": "Let $S$ be a subspace of a vector space over $R$. For $S$={0}, $K$ &equiv; {α$x$+β$y$: $x, y$ &isin; $S$ and α, β &isin; $R$} equals",
       "answers": {
-        "a": "R<sup>2</sup>",
+        "a": "$R$<sup>2</sup>",
         "b": "{0}",
         "c": "0",
         "d": "(0, 0)"
@@ -53,7 +53,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Consider the vector R<sup>2</sup> over R. Let<br>(i) (4, 8)=α(2, 3) for some αϵR <br> (ii) (2, 3)=α(1, 1)+β(-1, -1) for some α, β ϵ R<br>Then which of the following is true",
+      "question": "Consider the vector $R$<sup>2</sup> over $R$. Let<br>(i) (4, 8)=α(2, 3) for some αϵ$R$ <br> (ii) (2, 3)=α(1, 1)+β(-1, -1) for some α, β ϵ $R$<br>Then which of the following is true",
       "answers": {
         "a": "Only (i)",
         "b": "Only (ii)",
