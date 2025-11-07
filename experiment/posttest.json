@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "A: -6$x$+7 is a possible linear combination of $x$<sup>2</sup>+3$x$+2 and $x$<sup>2</sup>+3 <br>B: 2<sup>$x$</sup>2 +6 is a possible linear combination of $x$<sup>2</sup>+3$x$+2 and $x$<sup>2</sup>+3",
+      "question": "A: -6$x$+7 is a possible linear combination of $x$<sup>2</sup>+3$x$+2 and $x$<sup>2</sup>+3 <br>B: 2$x$<sup>2</sup>+6 is a possible linear combination of $x$<sup>2</sup>+3$x$+2 and $x$<sup>2</sup>+3",
       "answers": {
         "a": "A is true, B is true",
         "b": "A is true, B is false",
@@ -10,10 +10,10 @@
         "d": "A is false, B is false"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect by definition",
+        "b": "Incorrect by definition",
+        "c": "Correct by definition",
+        "d": "Incorrect by definition"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -27,10 +27,10 @@
         "d": "A is false, B is false"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct by definition",
+        "b": "Incorrect by definition",
+        "c": "Incorrect by definition",
+        "d": "Incorrect by definition"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -44,10 +44,10 @@
         "d": "A is false, B is false"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect by definition",
+        "b": "Incorrect by definition",
+        "c": "Correct by definition",
+        "d": "Incorrect by definition"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -61,10 +61,10 @@
         "d": "A is false, B is false"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect by definition",
+        "b": "Incorrect by definition",
+        "c": "Incorrect by definition",
+        "d": "Correct by definition"
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
@@ -78,10 +78,10 @@
         "d": "Span{$v$<sub>1</sub>, $v$<sub>2</sub>}≠ span{$v$<sub>2</sub>, $v$<sub>3</sub>}"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct by definition",
+        "b": "Incorrect by definition",
+        "c": "Incorrect by definition",
+        "d": "Incorrect by definition",
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
