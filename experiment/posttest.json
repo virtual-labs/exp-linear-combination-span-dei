@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "A: -6$x$+7 is a possible linear combination of $x$<sup>2</sup>+3$x$+2 and $x$<sup>2</sup>+3 <br>B: 2<sup>$x$</sup>2 +6 is a possible linear combination of $x$<sup>2</sup>+3$x$+2 and $x$<sup>2</sup>+3",
+      "question": "A: -6$x$+7 is a possible linear combination of $x$<sup>2</sup>+3$x$+2 and $x$<sup>2</sup>+3 <br>B: 2$x$<sup>2</sup>+6 is a possible linear combination of $x$<sup>2</sup>+3$x$+2 and $x$<sup>2</sup>+3",
       "answers": {
         "a": "A is true, B is true",
         "b": "A is true, B is false",
