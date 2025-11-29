@@ -26,6 +26,7 @@
 .submitbtn{
     background-color: rgb(211, 192, 192);
     cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -35,16 +36,16 @@
     <p style="float:center; align-content:right;">
         <a href="./span.html" class="next" >Next &raquo;</a>
     </p><br>
-    <p id='note' style="font-size: 1rem; color:blue;"><b>Note:</b><br> i.  Vector Space under consideration:( R<sup>2</sup> +, .) over R <br> ii. Chosen elements in R<sup>2</sup> are represented by " Red " dots in the diagrams below. </p>
+    <p id='note' style="font-size: 1rem; color:blue;"><b>Note:</b><br> i.  Vector Space under consideration:( <i>R</i><sup>2</sup> +, .) over <i>R</i> <br> ii. Chosen elements in <i>R</i><sup>2</sup> are represented by " Red " dots in the diagrams below. </p>
 	<div class="container">
        
     <div class="column">
     	
     	<h2>Single element</h2>
   		
-  		<p>&alpha; . (x<sub>1</sub> , x<sub>2</sub>) = (&alpha; . x<sub>1</sub> , &alpha; . x<sub>2</sub>)</p>
+  		<p>&alpha; . (<i>x</i><sub>1</sub> , <i>x</i><sub>2</sub>) = (&alpha; . <i>x</i><sub>1</sub> , &alpha; . <i>x</i><sub>2</sub>)</p>
         <div class="case">
-        <p style="color:red;"><u>Case 1</u> : x &equiv; (1 , 2)</p>
+        <p style="color:red;"><u>Case 1</u> : <i>x</i> &equiv; (1 , 2)</p>
 
         <form onsubmit="handleSubmit(event)">
             <label for="alphavalues">
@@ -54,7 +55,7 @@
                     <option value="0">&alpha; = 0</option>
                     <option value="2">&alpha; = 2</option>
                     <option value="-3.003">&alpha; = -3.003</option>
-                </select> <input class="submitbtn" type="submit" value="&alpha;.x and its Geometric Visualization." style="margin-left:3px ;">
+                </select> <button class="submitbtn" type="submit" value="&alpha;.x and its Geometric Visualization." style="margin-left:3px ;">&alpha;.<i>x</i> and its Geometric Visualization.</button>
                     
                     <p id=""></p>
                 </div>
@@ -62,25 +63,12 @@
             </label>
         </form>
     
-          
-        <!-- <h3>Geometric Visualization of chosen &alpha; and x</h3>
-  		<input type="submit" value="&alpha; = 0" onclick="alphazero();"><br>
-  		<p id='alphazero' style="color:blue;"></p>
-  		
-  		<input type="submit" value="&alpha; = 2" onclick="alphaptwo();"><br>
-  		<p id='alphaptwo' style="color:darkviolet;"></p>
-  		
-  		<input type="submit" value="&alpha; = -3.003" onclick="alphaneg();"><br>
-  		<p id='alphaneg' style="color:darkorange;"></p> -->
-  		
-  		
-  		
     	<canvas id="my-canvas" width="300" height="300"></canvas><br>
 
         </div>
         <br><br>
         <div class="case">
-        <p style="color:red;"><u>Case 2</u> : x &equiv; (0 , 0)</p>
+        <p style="color:red;"><u>Case 2</u> : <i>x</i> &equiv; (0 , 0)</p>
 
         <form onsubmit="handleSubmit2(event)">
             <label for="alphavalues">
@@ -91,7 +79,7 @@
                     <option value="0">&alpha; = 0</option>
                     <option value="6.94">&alpha; = 6.94</option>
                     <option value="-7">&alpha; = -7</option>
-                </select> <input class="submitbtn" type="submit" value="&alpha;.x and its Geometric Visualization." style="margin-left:3px ;">
+                </select> <button class="submitbtn" type="submit" value="&alpha;.x and its Geometric Visualization." style="margin-left:3px ;">&alpha;.<i>x</i> and its Geometric Visualization.</button>
              
                 <p id="res2"></p>
             </div>
@@ -99,16 +87,6 @@
         </label>
         </form>
          
-        <!-- <h3>Geometric Visualization of chosen &alpha; and x</h3>
-        <input type="submit" value="&alpha; = 0" onclick="azero();"><br>
-        <p id='azero' style="color:blue;"></p>
-        
-        <input type="submit" value="&alpha; = 6.94" onclick="apos();"><br>
-        <p id='apos' style="color:darkorange;"></p>
-        
-        <input type="submit" value="&alpha; = -7" onclick="aneg();"><br>
-        <p id='aneg' style="color:darkviolet;"></p> -->
-        
         
         <canvas id="mycanvas" width="300" height="300"></canvas><br>
         
@@ -121,10 +99,10 @@
     <div class="column">
     	<h2>Two elements</h2>
     	
-    	<p>&alpha; . (x<sub>1</sub> , x<sub>2</sub>) + &beta; . (y<sub>1</sub> , y<sub>2</sub>) = (&alpha; . x<sub>1</sub> + &beta; . y<sub>1</sub>  ,  &alpha; . x<sub>2</sub> + &beta; . y<sub>2</sub>)</p>
+    	<p>&alpha; . (<i>x</i><sub>1</sub> , <i>x</i><sub>2</sub>) + &beta; . (<i>y</i><sub>1</sub> , <i>y</i><sub>2</sub>) = (&alpha; . <i>x</i><sub>1</sub> + &beta; . <i>y</i><sub>1</sub>  ,  &alpha; . <i>x</i><sub>2</sub> + &beta; . <i>y</i><sub>2</sub>)</p>
 
         <div class="case">
-        <p style="color:red;"><u>Case 1</u> : x &equiv; (1 , 2) , y &equiv; (2 , 4)</p>
+        <p style="color:red;"><u>Case 1</u> : <i>x</i> &equiv; (1 , 2) , <i>y</i> &equiv; (2 , 4)</p>
 
         <form onsubmit="handleSubmit3(event)">
                 <label for="alphavalues" >
@@ -134,7 +112,7 @@
                     <option value="0">&alpha; = 0, &beta; = 0</option>
                     <option value="1">&alpha; = 0, &beta; = -2</option>
                     <option value="2">&alpha; = -1.56, &beta; = 2.63</option>
-                </select> <input class="submitbtn" type="submit" value="&alpha;.x + &beta;.y and its Geometric Visualization." style="margin-left:3px ;">
+                </select> <button class="submitbtn" type="submit" value="&alpha;.x + &beta;.y and its Geometric Visualization." style="margin-left:3px ;">&alpha;.<i>x</i> + &beta;.<i>y</i> and its Geometric Visualization.</button>
               
                     <p id="res3"></p>
                 </div>
@@ -142,23 +120,11 @@
             </label>
         </form>
       
-
-        <!-- <h3>Geometric Visualization of chosen &alpha;, &beta; and x</h3>
-    	<input type="submit" value="&alpha; = 0 , &beta; = 0" onclick="azerobzero();"><br>
-    	<p id='azerobzero' style="color:blue;"></p>
-    	
-  		<input type="submit" value="&alpha; = 0 , &beta; = -2" onclick="azerobnum();"><br>
-  		<p id='azerobnum' style="color:brown;"></p>
-  		
-  		<input type="submit" value="&alpha; = -1.56 , &beta; = 2.63" onclick="anumbnum();">
-  		<p id='anumbnum' style="color:darkviolet;"></p>
-    	
-    	 -->
     	<canvas id="canvas" width="300" height="300"></canvas><br>
         </div><br><br>
 
         <div class="case">
-        <p style="color:red;"><u>Case 2</u> : x &equiv; (1 , 2) , y &equiv; (2 , 5)</p>
+        <p style="color:red;"><u>Case 2</u> : <i>x</i> &equiv; (1 , 2) , <i>y</i> &equiv; (2 , 5)</p>
 
         <form onsubmit="handleSubmit4(event)">
             <label for="alphavalues" >
@@ -168,23 +134,14 @@
                 <option value="0">&alpha; = 0, &beta; = 0</option>
                 <option value="1">&alpha; = 52.2, &beta; = -19.6</option>
                 <option value="2">&alpha; = 36.90, &beta; = −13.84</option>
-            </select> <input class="submitbtn" type="submit" value="&alpha;.x + &beta;.y and its Geometric Visualization." style="margin-left:3px ;">
+            </select> <button class="submitbtn" type="submit" value="&alpha;.x + &beta;.y and its Geometric Visualization." style="margin-left:3px ;">&alpha;.<i>x</i> + &beta;.<i>y</i> and its Geometric Visualization.</button>
                 
                 <p id="res4"></p>
             </div>
          
         </label>
     </form>
-        <!-- <h3>Geometric Visualization of chosen &alpha;, &beta; and x</h3>
-        <input type="submit" value="&alpha; = 0 , &beta; = 0" onclick="abzero();"><br>
-        <p id='abzero' style="color:blue;"></p>
-        
-        <input type="submit" value="&alpha; = 1 , &beta; = 2" onclick="abpos();"><br>
-        <p id='abpos' style="color:brown;"></p>
-        
-        <input type="submit" value="&alpha; = -0.56 , &beta; = 1.63" onclick="abneg();">
-        <p id='abneg' style="color:darkviolet;"></p> -->
-        
+       
         <canvas id="abcanvas" width="300" height="300"></canvas><br>
         
         </div>
@@ -195,11 +152,11 @@
     <div class="column">
     	<h2>More than two elements</h2>
 
-        <p>&alpha; . (x<sub>1</sub> , x<sub>2</sub>) + &beta; . (y<sub>1</sub> , y<sub>2</sub>) + &gamma; . (z<sub>1</sub> , z<sub>2</sub>) = <br>(&alpha; . x<sub>1</sub> + &beta; . y<sub>1</sub> + &gamma; . z<sub>1</sub>  ,  &alpha; . x<sub>2</sub> + &beta; . y<sub>2</sub> + &gamma; . z<sub>2</sub>)</p>
+        <p>&alpha; . (<i>x</i><sub>1</sub> , <i>x</i><sub>2</sub>) + &beta; . (<i>y</i><sub>1</sub> , <i>y</i><sub>2</sub>) + &gamma; . (<i>z</i><sub>1</sub> , <i>z</i><sub>2</sub>) = <br>(&alpha; . <i>x</i><sub>1</sub> + &beta; . <i>y</i><sub>1</sub> + &gamma; . <i>z</i><sub>1</sub>  ,  &alpha; . <i>x</i><sub>2</sub> + &beta; . <i>y</i><sub>2</sub> + &gamma; . <i>z</i><sub>2</sub>)</p>
         
 
         <div class="case">
-        <p style="color:red;"><u>Case 1</u> : x &equiv; (1 , 2) , y &equiv; (2 , 4), z &equiv; (3 , 6)</p>
+        <p style="color:red;"><u>Case 1</u> : <i>x</i> &equiv; (1 , 2) , <i>y</i> &equiv; (2 , 4), <i>z</i> &equiv; (3 , 6)</p>
         <form onsubmit="handleSubmit5(event)">
             <label for="alphavalues" >
                 <div class="inline-elements">
@@ -208,7 +165,7 @@
                 <option value="0">&alpha; = 0, &beta; = 0, &gamma; = 0</option>
                 <option value="1">&alpha; = 4, &beta; = -2, &gamma; = 1.64</option>
                 <option value="2">&alpha; = -1.65, &beta; = 0, &gamma; = -0.78</option>
-            </select> <input class="submitbtn" type="submit" style="font-family: 'Times New Roman', Times, serif;" value="&alpha;.x+&beta;.y+&gamma;.z and its Geometric Visualization." style="margin-left:3px ;">
+            </select> <button class="submitbtn" type="submit" style="font-family: 'Times New Roman', Times, serif;" value="&alpha;.x+&beta;.y+&gamma;.z and its Geometric Visualization." style="margin-left:3px ;">&alpha;.<i>x</i>+&beta;.<i>y</i>+&gamma;.<i>z</i> and its Geometric Visualization.</button>
                
                 <p id="res5"></p>
             </div>
@@ -220,7 +177,7 @@
         
         </div><br><br>
         <div class="case">
-        <p style="color:red;"><u>Case 2</u> : x &equiv; (1 , 2) , y &equiv; (5 , 3), z &equiv; (6 , 2)</p>
+        <p style="color:red;"><u>Case 2</u> : <i>x</i> &equiv; (1 , 2) , <i>y</i> &equiv; (5 , 3), <i>z</i> &equiv; (6 , 2)</p>
 
         <form onsubmit="handleSubmit6(event)">
             <label for="alphavalues" >
@@ -230,23 +187,14 @@
                 <option value="0">&alpha; = 0, &beta; = 0, &gamma; = 0</option>
                 <option value="1">&alpha; = 1, &beta; = -1, &gamma; = 0.56</option>
                 <option value="2">&alpha; = -1.46, &beta; = 1.84, &gamma; = 1</option>
-            </select> <input class="submitbtn" type="submit" style="font-family: 'Times New Roman', Times, serif;" value="&alpha;.x+&beta;.y+&gamma;.z and its Geometric Visualization." style="margin-left:3px ;">
+            </select> <button class="submitbtn" type="submit" style="font-family: 'Times New Roman', Times, serif;" value="&alpha;.x+&beta;.y+&gamma;.z and its Geometric Visualization." style="margin-left:3px ;">&alpha;.<i>x</i>+&beta;.<i>y</i>+&gamma;.<i>z</i> and its Geometric Visualization.</button>
                
                 <p id="res6"></p>
             </div>
          
         </label>
     </form>
-        <!-- <h3>Geometric Visualization of chosen &alpha;, &beta;, &gamma; and x</h3>
-        <input type="submit" value="&alpha; = 0 , &beta; = 0 , &gamma; = 0" onclick="abgzero2();"><br>
-        <p id='abgzero2' style="color:blue;"></p>
-        
-        <input type="submit" value="&alpha; = 1 , &beta; = -1 , &gamma; = 0.56" onclick="abgpos2();"><br>
-        <p id='abgpos2' style="color:brown;"></p>
-        
-        <input type="submit" value="&alpha; = -4.25 , &beta; = 1.2 , &gamma; = 2" onclick="abgneg2();">
-        <p id='abgneg2' style="color:darkviolet;"></p>
-         -->
+      
      
         <canvas id="abgcanvas" width="300" height="300"></canvas><br>
         
