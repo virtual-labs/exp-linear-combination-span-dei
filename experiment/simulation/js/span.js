@@ -163,9 +163,9 @@ function point1(){
     ctx.lineTo(cdd3*grid_size,cdd4*grid_size);
     ctx.strokeStyle="red";
     ctx.stroke();
-    document.getElementById('oespan').innerHTML="S = { (" + Number(cd1) + " , " + -Number(cd2) + ") }";
+    document.getElementById('oespan').innerHTML="<i>S</i> = { (" + Number(cd1) + " , " + -Number(cd2) + ") }";
 
-    document.getElementById("note1").innerHTML="Note: Please reload the page, to consider another S."
+    document.getElementById("note1").innerHTML="Note: Please reload the page, to consider another <i>S</i>."
 }
 
 /*------------------------------First Graph End---------------------------------------------------------------*/
@@ -655,7 +655,7 @@ function pnt1(){
     context.stroke();
     document.getElementById("btn1").disabled=false;
     document.getElementById("btn2").disabled=false;
-    document.getElementById("note2").innerHTML="Note: Please reload the page, to consider another x."
+    document.getElementById("note2").innerHTML="Note: Please reload the page, to consider another <i>x</i>."
 }
 
 
@@ -669,7 +669,7 @@ function pnt2(){
     //cntx.strokeStyle = "red";
     //cntx.stroke();
     drawCoords(c5*gridsize,-c6*gridsize,'blue');
-    document.getElementById('span2line').innerHTML=("L(S) = line");
+    document.getElementById('span2line').innerHTML=("<i>L(S)</i> = line");
     
 }
 function fill(){
@@ -690,7 +690,7 @@ function pnt3(){
     
     drawCoordnt(c11*gridsize,c12*gridsize,'indigo');
     fill();
-    document.getElementById('span2R2').innerHTML=("L(S) = R<sup>2</sup>");
+    document.getElementById('span2R2').innerHTML=("<i>L(S) = R</i><sup>2</sup>");
 }
 
 
@@ -893,7 +893,7 @@ function pt1(){
     document.getElementById("btn3").disabled=false;
     document.getElementById("btn4").disabled=false;
 
-    document.getElementById("note3").innerHTML="Note: Please reload the page, to consider another x."
+    document.getElementById("note3").innerHTML="Note: Please reload the page, to consider another <i>x</i>."
     
     
 }
@@ -910,23 +910,49 @@ function pt2(){
     cdn6=ccdn2*cdn3
     
     drawCoordnts(cdn5*grdsize,-cdn6*grdsize,'blue');
-    document.getElementById('spannline').innerHTML=("L(S) = line");
+    document.getElementById('spannline').innerHTML=("<i>L(S)</i> = line");
     
 
 }
 
 
 
+// Declare globally
+var m2 = 0;
+var c2 = 0;
+var pt3ClickCount = 0;
 
-function pt3(){
-   
-    var crd5 = Math.floor(Math.random() * 20 - 10);
-    var crd6 = Math.floor(Math.random() * 20 - 10);
+function pt3() {
+    var min = -10;
+    var max = 10;
+    var threshold = 0.5; // how far from line counts as "not on line"
+    var crd5, crd6;
+
+    pt3ClickCount++;
+
+    if (pt3ClickCount === 1) {
+        // First click: NOT on the line
+        do {
+            crd5 = Math.floor(Math.random() * (max - min + 1) + min);
+            crd6 = Math.floor(Math.random() * (max - min + 1) + min);
+        } while (Math.abs(crd6 - (m2 * crd5 + c2)) < threshold);
+
+    } else if (pt3ClickCount === 2) {
+        // Second click: ON the line
+        crd5 = Math.floor(Math.random() * (max - min + 1) + min);
+        crd6 = Math.round(m2 * crd5 + c2); // force onto the line
+
+    } else {
+        // Later clicks: random anywhere
+        crd5 = Math.floor(Math.random() * (max - min + 1) + min);
+        crd6 = Math.floor(Math.random() * (max - min + 1) + min);
+    }
+
     drawCoordt(crd5 * grd_size, crd6 * grd_size, 'indigo');
-    document.getElementById('spannRn').innerHTML = "L(S) = R<sup>2</sup>";
+    document.getElementById('spannRn').innerHTML = "<i>L(S) = R</i><sup>2</sup>";
     fillarea();
-    
 }
+
  
 var grd_size = 10;
 var x_grid_lines = 7;
