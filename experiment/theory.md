@@ -1,30 +1,30 @@
 This experiment is designed to help students understand the concept of span, a fundamental idea in linear algebra. The span of a set of vectors refers to all linear combinations of those vectors and forms a subspace of the vector space and. This idea is important because it helps us understand the notion of a basis. By doing this experiment, students will be able to visualize the span of subsets of <i>R<</i>sup>2</sup>  and can extend this idea to other dimensions. Here <i>V</i> be a vector space over <i>F</i>≡<i>R</i> or <i>C</i> and let <i>S</i> be a subset of <i>V</i>.
 ### 1. Linear combination:
-Let <i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, …, <i>x</i><sub><i>k</i></sub> &isin; <i>V</i> and <i>α</i><sub>1</sub>, <i>α</i><sub>2</sub>, ..., <i>α</i><sub><i>k</i></sub> &isin; F. Then <i>α</i><sub>1</sub><i>x</i><sub>1</sub>+<i>α</i><sub>2</sub>x<sub>2</sub>+…+ α<sub>k</sub>x<sub>k</sub> is called a linear combination of x<sub>1</sub>, x<sub>2</sub>, …, x<sub>k</sub>. 
+Let <i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, …, <i>x</i><sub><i>k</i></sub> &isin; <i>V</i> and <i>α</i><sub>1</sub>, <i>α</i><sub>2</sub>, ..., <i>α</i><sub><i>k</i></sub> &isin; F. Then <i>α</i><sub>1</sub><i>x</i><sub>1</sub>+<i>α</i><sub>2</sub><i>x</i><sub>2</sub>+ …+<i>α</i><sub><i>k</i></sub><i>x</i><sub><i>k</i></sub> is called a linear combination of <i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, …, <i>x</i><sub>k</sub>. 
 ### 2. Example:
-Consider the vector spaces R<sup>2</sup> over R
+Consider the vector spaces <i>R</i><sup>2</sup> over <i>R</i>
    
-Then some linear combinations of (3, 0), (1, 4)&isin;R<sup>2</sup> are given below: <br>
-Case (i) α<sub>1</sub>=2&isin;R, α<sub>2</sub>=1&isin;R <br>
-α<sub>1</sub>x<sub>1</sub>+α<sub>2</sub>x<sub>2</sub>= 2(3, 0) +1(1, 4) =(6, 0)+(1, 4)=(7, 4)
+Then some linear combinations of (3, 0), (1, 4)&isin;<i>R</i><sup>2</sup> are given below: <br>
+Case (i) <i>α</i><sub>1</sub>=2&isin;<i>R</i>, <i>α</i><sub>2</sub>=1&isin;<i>R</i> <br>
+<i>α</i><sub>1</sub><i>x</i><sub>1</sub>+<i>α</i><sub>2</sub><i>x</i><sub>2</sub>= 2(3, 0) +1(1, 4) =(6, 0)+(1, 4)=(7, 4)
 
-Case (ii) α<sub>1</sub>=1&isin;R, α<sub>2</sub>=0&isin;R <br>
-α<sub>1</sub>x<sub>1</sub>+α<sub>2</sub>x<sub>2</sub>= 1(3, 0) + 0(1, 4) = (3, 0)+(0, 0) = (3, 0)
+Case (ii) <i>α</i><sub>1</sub>=1&isin;<i>R</i>, <i>α</i><sub>2</sub>=0&isin;<i>R</i> <br>
+<i>α</i><sub>1</sub><i>x</i><sub>1</sub>+<i>α</i><sub>2</sub><i>x</i><sub>2</sub>= 1(3, 0) + 0(1, 4) = (3, 0)+(0, 0) = (3, 0)
 
-Case (iii) α<sub>1</sub>=0&isin;R, α<sub>2</sub>=1&isin;R <br>
-α<sub>1</sub>x<sub>1</sub>+α<sub>2</sub>x<sub>2</sub>= 0(3, 0)+1(1, 4)=(0, 0)+(1, 4)=(1, 4)
+Case (iii) <i>α</i><sub>1</sub>=0&isin;<i>R</i>, <i>α</i><sub>2</sub>=1&isin;<i>R</i> <br>
+<i>α</i><sub>1</sub><i>x</i><sub>1</sub>+<i>α</i><sub>2</sub><i>x</i><sub>2</sub>= 0(3, 0)+1(1, 4)=(0, 0)+(1, 4)=(1, 4)
 
-Case (iv) α<sub>1</sub>=-2&isin;R, α<sub>2</sub>=√2&isin;R <br>
-α<sub>1</sub>x<sub>1</sub>+α<sub>2</sub>x<sub>2</sub>= -2(3, 0)+ √2(1, 4)=(-6, 0)+(√2, 4√2)=(√2-6, 4√2) 
+Case (iv) <i>α</i><sub>1</sub>=-2&isin;<i>R</i>, <i>α</i><sub>2</sub>=√2&isin;<i>R</i> <br>
+<i>α</i><sub>1</sub><i>x</i><sub>1</sub>+<i>α</i><sub>2</sub><i>x</i><sub>2</sub>= -2(3, 0)+ √2(1, 4)=(-6, 0)+(√2, 4√2)=(√2-6, 4√2)
 ### 3. Example:
-Consider the vector space (P<sub>2</sub> (x), +, .) over R denoted by P<sub>2</sub> (x)  where P<sub>2</sub> (x)={ a<sub>2</sub>x<sup>2</sup>+a<sub>1</sub>x<sup>1</sup>+a<sub>0</sub>, where a<sub>1</sub>, a<sub>2</sub>, a<sub>0</sub> &isin; R }.
+Consider the vector space (<i>P</i><sub>2</sub> (x), +, .) over <i>R</i> denoted by <i>P</i><sub>2</sub>(<i>x</i>)  where <i>P</i><sub>2</sub>(<i>x</i>)={ <i>a</i><sub>2</sub><i>x</i><sup>2</sup>+<i>a</i><sub>1</sub><i>x</i><sup>1</sup>+<i>a</i><sub>0</sub>, where <i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, <i>a</i><sub>0</sub> &isin;<i>R</i> }.
 
-The operation addition is defined as (a<sub>2</sub>x<sup>2</sup>+a<sub>1</sub>x<sup>1</sup>+a<sub>0</sub>)+(b<sub>2</sub>x<sup>2</sup>+b<sub>1</sub>x<sup>1</sup>+b<sub>0</sub>)={(a<sub>2</sub>+b<sub>2</sub>)x<sup>2</sup>+(a<sub>1</sub>+b<sub>1</sub>)x<sup>1</sup>+(a<sub>0</sub>+b<sub>0</sub>)}; <br> where a<sub>0</sub>, a<sub>1</sub>, a<sub>2</sub>, b<sub>0</sub>, b<sub>1</sub>, b<sub>2</sub>&isin;R
+The operation addition is defined as (<i>a</i><sub>2</sub><i>x</i><sup>2</sup>+<i>a</i><sub>1</sub><i>x</i><sup>1</sup>+<i>a</i><sub>0</sub>)+(<i>b</i><sub>2</sub><i>x</i><sup>2</sup>+<i>b</i><sub>1</sub><i>x</i><sup>1</sup>+<i>b</i><sub>0</sub>)={(<i>a</i><sub>2</sub>+<i>b</i><sub>2</sub>)<i>x</i><sup>2</sup>+(<i>a</i><sub>1</sub>+<i>b</i><sub>1</sub>)<i>x</i><sup>1</sup>+(<i>a</i><sub>0</sub>+<i>b</i><sub>0</sub>)}; <br> where <i>a</i><sub>0</sub>, <i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, <i>b</i><sub>0</sub>, <i>b</i><sub>1</sub>, <i>b</i><sub>2</sub>&isin;<i>R</i>
 
-And the operation scalar multiplication is defined as α.(a<sub>2</sub>x<sup>2</sup>+a<sub>1</sub>x<sup>1</sup>+a<sub>0</sub>)=α.a<sub>2</sub>x<sup>2</sup>+ α.a<sub>1</sub>x<sup>1</sup>+ α.a<sub>0</sub>&isin;R
+And the operation scalar multiplication is defined as <i>α</i>.(<i>a</i><sub>2</sub><i>x</i><sup>2</sup>+<i>a</i><sub>1</sub><i>x</i><sup>1</sup>+<i>a</i><sub>0</sub>)=<i>α</i>.<i>a</i><sub>2</sub><i>x</i><sup>2</sup>+ <i>α</i>.<i>a</i><sub>1</sub><i>x</i><sup>1</sup>+ <i>α</i>.<i>a</i><sub>0</sub>&isin;<i>R</i>
 
-Then x<sup>2</sup>+3x+3 &isin; P<sub>2</sub> (x) is a linear combination of p<sub>1</sub>=x+1, p<sub>2</sub>=x<sup>2</sup>+x+1, for α<sub>1</sub>=2&isin;R, α<sub>2</sub>=1&isin;R, s.t. 
-α<sub>1</sub>p<sub>1</sub>+α<sub>2</sub>p<sub>2</sub>=2(x+1)+1(x<sup>2</sup>+x+1)=(2x+2)+ (x<sup>2</sup>+x+1)=x<sup>2</sup>+3x+3
+Then <i>x</i><sup>2</sup>+3<i>x</i>+3 &isin;<i>P</i><sub>2</sub>(<i>x</i>) is a linear combination of <i>p</i><sub>1</sub>=<i>x</i>+1, <i>p</i><sub>2</sub>=<i>x</i><sup>2</sup>+<i>x</i>+1, for <i>α</i><sub>1</sub>=2&isin;<i>R</i>, <i>α</i><sub>2</sub>=1&isin;<i>R</i>, s.t. 
+<i>α<i><sub>1</sub><i>p</i><sub>1</sub>+α<sub>2</sub>p<sub>2</sub>=2(x+1)+1(x<sup>2</sup>+x+1)=(2x+2)+ (x<sup>2</sup>+x+1)=x<sup>2</sup>+3x+3
 ### 4. Linear span:
 Case (i) Let φ &ne; S &sube; V. Then the linear span of S consists of all possible linear combinations of elements of S.  It is denoted by L(S). Thus L(S)= { α<sub>1</sub>x<sub>1</sub>+ α<sub>2</sub>x<sub>2</sub>+ …+α<sub>k</sub>x<sub>k</sub> : x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>k</sub> &isin; V, α<sub>1</sub>, α<sub>2</sub>, …, α<sub>k</sub> &isin; F}.
 
