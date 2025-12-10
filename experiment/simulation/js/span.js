@@ -165,7 +165,7 @@ function point1(){
     ctx.stroke();
     document.getElementById('oespan').innerHTML="<i>S</i> = { (" + Number(cd1) + " , " + -Number(cd2) + ") }";
 
-    document.getElementById("note1").innerHTML="Note: Please reload the page, to consider another <i>S</i>."
+    document.getElementById("note1").innerHTML="Note: Reload the page to consider another <i>S</i>."
 }
 
 /*------------------------------First Graph End---------------------------------------------------------------*/
@@ -655,7 +655,7 @@ function pnt1(){
     context.stroke();
     document.getElementById("btn1").disabled=false;
     document.getElementById("btn2").disabled=false;
-    document.getElementById("note2").innerHTML="Note: Please reload the page, to consider another <i>x</i>."
+    document.getElementById("note2").innerHTML="Note: Reload the page to consider another <i>x</i>."
 }
 
 
@@ -669,7 +669,7 @@ function pnt2(){
     //cntx.strokeStyle = "red";
     //cntx.stroke();
     drawCoords(c5*gridsize,-c6*gridsize,'blue');
-    document.getElementById('span2line').innerHTML=("<i>L(S)</i> = line");
+    document.getElementById('span2line').innerHTML=("<i>L</i>(<i>S</i>) = line");
     
 }
 function fill(){
@@ -690,7 +690,7 @@ function pnt3(){
     
     drawCoordnt(c11*gridsize,c12*gridsize,'indigo');
     fill();
-    document.getElementById('span2R2').innerHTML=("<i>L(S) = R</i><sup>2</sup>");
+    document.getElementById('span2R2').innerHTML=("<i>L</i>(<i>S</i>) = <i>R</i><sup>2</sup>");
 }
 
 
@@ -893,7 +893,7 @@ function pt1(){
     document.getElementById("btn3").disabled=false;
     document.getElementById("btn4").disabled=false;
 
-    document.getElementById("note3").innerHTML="Note: Please reload the page, to consider another <i>x</i>."
+    document.getElementById("note3").innerHTML="Note: Reload the page to consider another <i>x</i>."
     
     
 }
@@ -910,7 +910,7 @@ function pt2(){
     cdn6=ccdn2*cdn3
     
     drawCoordnts(cdn5*grdsize,-cdn6*grdsize,'blue');
-    document.getElementById('spannline').innerHTML=("<i>L(S)</i> = line");
+    document.getElementById('spannline').innerHTML=("<i>L</i>(<i>S</i>) = line");
     
 
 }
@@ -949,7 +949,7 @@ function pt3() {
     }
 
     drawCoordt(crd5 * grd_size, crd6 * grd_size, 'indigo');
-    document.getElementById('spannRn').innerHTML = "<i>L(S) = R</i><sup>2</sup>";
+    document.getElementById('spannRn').innerHTML = "<i>L</i>(<i>S</i>) = <i>R</i><sup>2</sup>";
     fillarea();
 }
 
