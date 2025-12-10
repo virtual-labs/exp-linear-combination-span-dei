@@ -51,12 +51,12 @@ Clearly <i>L</i>(<i>S</i>) &sube; <i>R</i><sup>2</sup>. We show that <i>R</i><su
 
 (iii)	<i>S</i>={(1, 0), (2, 0)} does not span <i>R</i><sup>2</sup> i.e. <i>L</i>(<i>S</i>) &ne; <i>R</i><sup>2</sup>.
 Justification: By definition, <i>L</i>(<i>S</i>)={<i>x</i>(1, 0)+<i>y</i>(2, 0)|<i>x</i>, <i>y</i> &isin;<i>R</i>}={(<i>x</i>, 0)+(2<i>y</i>, 0)|<i>x</i>, <i>y</i> &isin;<i>R</i>}={(<i>x</i>+2<i>y</i>, 0)|<i>x</i>, <i>y</i>&isin;<i>R</i>}.
-We show that (0, 1)  &notin; <i>L</i>(<i>S</i>). For if (0, 1)&isin;<i>L</i>(<i>S</i>), then (0, 1)=<i>α</i>(1, 0)+<i>β</i>(2, 0) for some <i>α</i>, β &isin; R. Therefore 1=0, a contradiction. Thus (0, 1) &notin; <i>L</i>(<i>S</i>). Hence <i>L</i>(<i>S</i>) &ne; R<sup>2</sup>
+We show that (0, 1)  &notin; <i>L</i>(<i>S</i>). For if (0, 1)&isin;<i>L</i>(<i>S</i>), then (0, 1)=<i>α</i>(1, 0)+<i>β</i>(2, 0) for some <i>α</i>, <i>β</i>&isin;<i>R</i>. Therefore 1=0, a contradiction. Thus (0, 1) &notin; <i>L</i>(<i>S</i>). Hence <i>L</i>(<i>S</i>) &ne; <i>R</i><sup>2</sup>
 
 ### 7. Example-II: 
-i. Consider the vector space P<sub>2</sub>x  over R and let S={1, x+1, x<sup>2</sup>+x+1} &sube; P<sub>2</sub>x . Then S spans P<sub>2</sub>x , i.e. <i>L</i>(<i>S</i>)=P<sub>2</sub>x .
+i. Consider the vector space <i>P</i><sub>2</sub><i>x</i>  over <i>R</i> and let <i>S</i>={1, <i>x</i>+1, <i>x</i><sup>2</sup>+<i>x</i>+1} &sube; <i>P</i><sub>2</sub><i>x</i> . Then <i>S</i> spans <i>P</i><sub>2</sub><i>x</i> , i.e. <i>L</i>(<i>S</i>)=<i>P</i><sub>2</sub><i>x</i> .
 
-Justification: By definition, <i>L</i>(<i>S</i>)={α.1+β(x+1)+γ(x<sup>2</sup>+x+1): α, β, γ  &isin; R}. Clearly <i>L</i>(<i>S</i>)  &sube;  P<sub>2</sub>x . To prove that P<sub>2</sub>x  &sube; <i>L</i>(<i>S</i>). Let a2x<sup>2</sup>+a<sub>1</sub>x<sup>1</sup>+a<sub>0</sub>  &isin; P<sub>2</sub>x , where a<sub>0</sub>, a<sub>1</sub>, a<sub>2</sub> &isin; R. Then a<sub>2</sub>x<sup>2</sup>+a<sub>1</sub>x<sup>1</sup>+a<sub>0</sub>= α.1+β(x+1)+γ(x<sup>2</sup>+x+1) for some α, β, γ  &isin; R. Therefore α=a<sub>0</sub>-a<sub>1</sub>, β=a<sub>1</sub>-a<sub>2</sub> and γ=a<sub>2</sub>.
+Justification: By definition, <i>L</i>(<i>S</i>)={<i>α</i>.1+<i>β</i>(<i>x</i>+1)+<i>γ</i>(<i>x</i><sup>2</sup>+<i>x</i>+1): <i>α, β, γ</i> &isin;<i>R</i>}. Clearly <i>L</i>(<i>S</i>)  &sube;  <i>P</i><sub>2</sub><i>x</i> . To prove that <i>P</i><sub>2</sub><i>x</i> &sube; <i>L</i>(<i>S</i>). Let <i>a</i><sub>2</sub>x<sup>2</sup>+a<sub>1</sub>x<sup>1</sup>+a<sub>0</sub>  &isin; P<sub>2</sub>x , where a<sub>0</sub>, a<sub>1</sub>, a<sub>2</sub> &isin; R. Then a<sub>2</sub>x<sup>2</sup>+a<sub>1</sub>x<sup>1</sup>+a<sub>0</sub>= α.1+β(x+1)+γ(x<sup>2</sup>+x+1) for some α, β, γ  &isin; R. Therefore α=a<sub>0</sub>-a<sub>1</sub>, β=a<sub>1</sub>-a<sub>2</sub> and γ=a<sub>2</sub>.
 Clearly, α.1+β(x+1)+γ(x<sup>2</sup>+x+1)= a<sub>2</sub>x<sup>2</sup>+a<sub>1</sub>x<sup>1</sup>+a<sub>0</sub>. Thus a<sub>2</sub>x<sup>2</sup>+a<sub>1</sub>x<sup>1</sup>+a<sub>0</sub> &isin; <i>L</i>(<i>S</i>), so that P<sub>2</sub>x  &sube; <i>L</i>(<i>S</i>). Hence <i>L</i>(<i>S</i>)= P<sub>2</sub>x .
 
 ii. Consider the vector space P<sub>2</sub>x  over R and let
