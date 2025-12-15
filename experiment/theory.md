@@ -61,7 +61,7 @@ Clearly, <i>α</i>.1+<i>β</i>(<i>x</i>+1)+<i>γ</i>(<i>x</i><sup>2</sup>+<i>x</
 
 ii. Consider the vector space <i>P</i><sub>2</sub><i>x</i>  over <i>R</i> and let
 <i>S</i>={ <i>x</i>+1, <i>x</i><sup>2</sup>+1, <i>x</i>-<i>x</i><sup>2</sup>} &sube; <i>P</i><sub>2</sub><i>x</i> . Then <i>S</i> does not span <i>P</i><sub>2</sub><i>x</i> , i.e. <i>L</i>(<i>S</i>)  &ne; <i>P</i><sub>2</sub><i>x</i> .
-Justification: By definition, <i>L</i>(<i>S</i>)={<i>α</i>(<i>x</i>+1)+β(x<sup>2</sup>+1)+γ(x-x<sup>2</sup>): α, β, γ  &isin; R}.We  show that 1 &notin;  <i>L</i>(<i>S</i>) because if not, then 1 &isin;<i>L</i>(<i>S</i>). Thus 1=α(x+1)+β(x<sup>2</sup>+1)+γ(x-x<sup>2</sup>) for some α, β, γ  &isin; R. Therefore α+β=1, α+γ=0, β-γ=0. By solving these equations, we get α+β=1and α+β=0, a contradiction. Thus 1 &notin;  <i>L</i>(<i>S</i>). Hence <i>L</i>(<i>S</i>)  &ne; P<sub>2</sub>x .
+Justification: By definition, <i>L</i>(<i>S</i>)={<i>α</i>(<i>x</i>+1)+<i>β</i>(<i>x</i><sup>2</sup>+1)+<i>γ</i>(<i>x</i>-<i>x</i><sup>2</sup>): <i>α</i>, <i>β</i>, <i>γ</i>  &isin; <i>R</i>}. We  show that 1 &notin;  <i>L</i>(<i>S</i>) because if not, then 1 &isin;<i>L</i>(<i>S</i>). Thus 1=<i>α</i>(<i>x</i>+1)+<i>β</i>(<i>x</i><sup>2</sup>+1)+<i>γ</i>(<i>x</i>-<i>x</i><sup>2</sup>) for some <i>α</i>, <i>β</i>, <i>γ</i>  &isin; <i>R</i>. Therefore <i>α</i>+<i>β</i>=1, <i>α</i>+<i>γ</i>=0, <i>β</i>-γ=0. By solving these equations, we get α+β=1and α+β=0, a contradiction. Thus 1 &notin;  <i>L</i>(<i>S</i>). Hence <i>L</i>(<i>S</i>)  &ne; P<sub>2</sub>x .
 
 ### 8. Properties:
 (i) S is a subset of <i>L</i>(<i>S</i>).
