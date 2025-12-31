@@ -24,7 +24,7 @@ The operation addition is defined as (<i>a</i><sub>2</sub><i>x</i><sup>2</sup>+<
 And the operation scalar multiplication is defined as <i>α</i>.(<i>a</i><sub>2</sub><i>x</i><sup>2</sup>+<i>a</i><sub>1</sub><i>x</i><sup>1</sup>+<i>a</i><sub>0</sub>)=<i>α</i>.<i>a</i><sub>2</sub><i>x</i><sup>2</sup>+ <i>α</i>.<i>a</i><sub>1</sub><i>x</i><sup>1</sup>+ <i>α</i>.<i>a</i><sub>0</sub>&isin;<i>R</i>
 
 Then <i>x</i><sup>2</sup>+3<i>x</i>+3 &isin;<i>P</i><sub>2</sub>(<i>x</i>) is a linear combination of <i>p</i><sub>1</sub>=<i>x</i>+1, <i>p</i><sub>2</sub>=<i>x</i><sup>2</sup>+<i>x</i>+1, for <i>α</i><sub>1</sub>=2&isin;<i>R</i>, <i>α</i><sub>2</sub>=1&isin;<i>R</i>, s.t. 
-<i>α<i><sub>1</sub><i>p</i><sub>1</sub>+<i>α</i><sub>2</sub><i>p</i><sub>2</sub>=2(<i>x</i>+1)+1(<i>x</i><sup>2</sup>+<i>x</i>+1)=(2<i>x</i>+2)+ (<i>x</i><sup>2</sup>+<i>x</i>+1)=<i>x</i><sup>2</sup>+3<i>x</i>+3
+<i>α</i><sub>1</sub><i>p</i><sub>1</sub>+<i>α</i><sub>2</sub><i>p</i><sub>2</sub>=2(<i>x</i>+1)+1(<i>x</i><sup>2</sup>+<i>x</i>+1)=(2<i>x</i>+2)+ (<i>x</i><sup>2</sup>+<i>x</i>+1)=<i>x</i><sup>2</sup>+3<i>x</i>+3
 ### 4. Linear span:
 Case (i) Let φ &ne; <i>S</i> &sube; <i>V</i>. Then the linear span of <i>S</i> consists of all possible linear combinations of elements of <i>S</i>.  It is denoted by <i>L</i>(<i>S</i>). Thus <i>L</i>(<i>S</i>)= { <i>α</i><sub>1</sub><i>x</i><sub>1</sub>+ <i>α</i><sub>2</sub><i>x</i><sub>2</sub>+ …+<i>α</i><sub><i>k</i></sub><i>x</i><sub>k</sub> : <i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, ..., <i>x</i><sub><i>k</i></sub> &isin;<i>V</i>, <i>α</i><sub>1</sub>, <i>α</i><sub>2</sub>, …, <i>α</i><sub><i>k</i></sub> &isin;<i>F</i>}.
 
@@ -61,16 +61,16 @@ Clearly, <i>α</i>.1+<i>β</i>(<i>x</i>+1)+<i>γ</i>(<i>x</i><sup>2</sup>+<i>x</
 
 ii. Consider the vector space <i>P</i><sub>2</sub><i>x</i>  over <i>R</i> and let
 <i>S</i>={ <i>x</i>+1, <i>x</i><sup>2</sup>+1, <i>x</i>-<i>x</i><sup>2</sup>} &sube; <i>P</i><sub>2</sub><i>x</i> . Then <i>S</i> does not span <i>P</i><sub>2</sub><i>x</i> , i.e. <i>L</i>(<i>S</i>)  &ne; <i>P</i><sub>2</sub><i>x</i> .
-Justification: By definition, <i>L</i>(<i>S</i>)={<i>α</i>(<i>x</i>+1)+<i>β</i>(<i>x</i><sup>2</sup>+1)+<i>γ</i>(<i>x</i>-<i>x</i><sup>2</sup>): <i>α</i>, <i>β</i>, <i>γ</i>  &isin; <i>R</i>}. We  show that 1 &notin;  <i>L</i>(<i>S</i>) because if not, then 1 &isin;<i>L</i>(<i>S</i>). Thus 1=<i>α</i>(<i>x</i>+1)+<i>β</i>(<i>x</i><sup>2</sup>+1)+<i>γ</i>(<i>x</i>-<i>x</i><sup>2</sup>) for some <i>α</i>, <i>β</i>, <i>γ</i>  &isin; <i>R</i>. Therefore <i>α</i>+<i>β</i>=1, <i>α</i>+<i>γ</i>=0, <i>β</i>-γ=0. By solving these equations, we get α+β=1and α+β=0, a contradiction. Thus 1 &notin;  <i>L</i>(<i>S</i>). Hence <i>L</i>(<i>S</i>)  &ne; P<sub>2</sub>x .
+Justification: By definition, <i>L</i>(<i>S</i>)={<i>α</i>(<i>x</i>+1)+<i>β</i>(<i>x</i><sup>2</sup>+1)+<i>γ</i>(<i>x</i>-<i>x</i><sup>2</sup>): <i>α</i>, <i>β</i>, <i>γ</i>  &isin; <i>R</i>}. We  show that 1 &notin;  <i>L</i>(<i>S</i>) because if not, then 1 &isin;<i>L</i>(<i>S</i>). Thus 1=<i>α</i>(<i>x</i>+1)+<i>β</i>(<i>x</i><sup>2</sup>+1)+<i>γ</i>(<i>x</i>-<i>x</i><sup>2</sup>) for some <i>α</i>, <i>β</i>, <i>γ</i>  &isin; <i>R</i>. Therefore <i>α</i>+<i>β</i>=1, <i>α</i>+<i>γ</i>=0, <i>β</i>-γ=0. By solving these equations, we get <i>α</i>+<i>β</i>=1and <i>α</i>+<i>β</i>=0, a contradiction. Thus 1 &notin;  <i>L</i>(<i>S</i>). Hence <i>L</i>(<i>S</i>)  &ne; <i>P</i><sub>2</sub><i>x</i> .
 
 ### 8. Properties:
-(i) S is a subset of <i>L</i>(<i>S</i>).
+(i) <i>S</i> is a subset of <i>L</i>(<i>S</i>).
 
-(ii) <i>L</i>(<i>S</i>) is the smallest subspace of V containing S. Thus the smallest subspace of V containing φ is {0}.
+(ii) <i>L</i>(<i>S</i>) is the smallest subspace of <i>V</i> containing <i>S</i>. Thus the smallest subspace of <i>V</i> containing φ is {0}.
 
-(iii) Let A &sube; B &sube; V. Then L(A) &sube; L(B).
+(iii) Let <i>A</i> &sube; <i>B</i> &sube; <i>V</i>. Then <i>L</i>(<i>A</i>) &sube; <i>L</i>(<i>B</i>).
 ### 9. Summary:
-For φ&ne;S&sube;V, α<sub>1</sub>x<sub>1</sub>+ α<sub>2</sub>x<sub>2</sub>+…+α<sub>k</sub>x<sub>k</sub> is a linear combination of elements of S, where x<sub>1</sub>, x<sub>2</sub>, …, x<sub>k</sub>&isin;S and α<sub>1</sub>, α<sub>2</sub>, ..., α<sub>k</sub>&isin;F: <i>L</i>(<i>S</i>) is the collection of all possible linear combinations of S. If S=φ, then L(S) is defined to be {0}. If <i>L</i>(<i>S</i>)=V, then S is called a spanning set of V and S is said to span V.
+For φ&ne;<i>S</i>&sube;<i>V</i>, <i>α</i><sub>1</sub><i>x</i><sub>1</sub>+ <i>α</i><sub>2</sub><i>x</i><sub>2</sub>+…+<i>α</i><sub><i>k</i></sub><i>x</i><sub><i>k</i></sub> is a linear combination of elements of <i>S</i>, where <i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, …, <i>x</i><sub>k</sub>&isin;<i>S</i> and <i>α</i><sub>1</sub>, <i>α</i><sub>2</sub>, ..., <i>α</i><sub><i>k</i></sub>&isin;<i>F</i>: <i>L</i>(<i>S</i>) is the collection of all possible linear combinations of <i>S</i>. If <i>S</i>=φ, then <i>L</i>(<i>S</i>) is defined to be {0}. If <i>L</i>(<i>S</i>)=V, then <i>S</i> is called a spanning set of <i>V</i> and <i>S</i> is said to span <i>V</i>.
 
-It may be noted that <i>L</i>(<i>S</i>)&ne;φ, S&sube;<i>L</i>(<i>S</i>) and <i>L</i>(<i>S</i>) is a subspace of V. Moreover, if W is a subspace of V such that S&sube;W, then L(S)&sube;W. In other words, <i>L</i>(<i>S</i>) is the smallest subspace of V containing S. A vector space V can have more than one spanning sets. For example, if we consider the vector space R<sup>2</sup> over R, then both of {(1, 0), (0, 1), (2, 2)} and {(1, 2), (2, 3)} are its spanning sets. Indeed, one can construct infinitely many of its spanning sets.
+It may be noted that <i>L</i>(<i>S</i>)&ne;φ, S&sube;<i>L</i>(<i>S</i>) and <i>L</i>(<i>S</i>) is a subspace of <i>V</i>. Moreover, if <i>W</i> is a subspace of <i>V</i> such that <i>S</i>&sube;<i>W</i>, then <i>L</i>(<i>S</i>)&sube;<i>W</i>. In other words, <i>L</i>(<i>S</i>) is the smallest subspace of <i>V</i> containing <i>S</i>. A vector space <i>V</i> can have more than one spanning sets. For example, if we consider the vector space <i>R</i><sup>2</sup> over <i>R</i>, then both of {(1, 0), (0, 1), (2, 2)} and {(1, 2), (2, 3)} are its spanning sets. Indeed, one can construct infinitely many of its spanning sets.
 
