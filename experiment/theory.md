@@ -15,9 +15,9 @@ Case (i). <i>α</i><sub>1</sub>=2&isin;<i>R</i>, <i>α</i><sub>2</sub>=1&isin;<i
 <i>α</i><sub>1</sub><i>x</i><sub>1</sub>+<i>α</i><sub>2</sub><i>x</i><sub>2</sub>= 0(3, 0)+1(1, 4)=(0, 0)+(1, 4)=(1, 4)</span>
 
 <span style="font-family: 'Times New Roman'; font-size: 22px;">Case (iv). <i>α</i><sub>1</sub>=-2&isin;<i>R</i>, <i>α</i><sub>2</sub>=√2&isin;<i>R</i> <br>
-<i>α</i><sub>1</sub><i>x</i><sub>1</sub>+<i>α</i><sub>2</sub><i>x</i><sub>2</sub>= -2(3, 0)+ √2(1, 4)=(-6, 0)+(√2, 4√2)=(√2-6, 4√2)</span>
+<i>α</i><sub>1</sub><i>x</i><sub>1</sub>+<i>α</i><sub>2</sub><i>x</i><sub>2</sub>= -2(3, 0)+ √2(1, 4)=(-6, 0)+(√2, 4√2)=(√2-6, 4√2)</span><br>
 <span style="font-family: 'Times New Roman'; font-size: 24px;"><b>3. Example:</b></span>
-<span style="font-family: 'Times New Roman'; font-size: 22px;">Consider the vector space (<i>P</i><sub>2</sub> (x), +, .) over <i>R</i> denoted by <i>P</i><sub>2</sub>(<i>x</i>)  where <i>P</i><sub>2</sub>(<i>x</i>)={ <i>a</i><sub>2</sub><i>x</i><sup>2</sup>+<i>a</i><sub>1</sub><i>x</i><sup>1</sup>+<i>a</i><sub>0</sub>, where <i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, <i>a</i><sub>0</sub> &isin;<i>R</i> }.</span>
+<span style="font-family: 'Times New Roman'; font-size: 22px;">Consider the vector space (<i>P</i><sub>2</sub> (x), +, .) over <i>R</i> denoted by <i>P</i><sub>2</sub>(<i>x</i>)  where <i>P</i><sub>2</sub>(<i>x</i>)={ <i>a</i><sub>2</sub><i>x</i><sup>2</sup>+<i>a</i><sub>1</sub><i>x</i><sup>1</sup>+<i>a</i><sub>0</sub>, where <i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, <i>a</i><sub>0</sub> &isin;<i>R</i> }.</span><br>
 
 <span style="font-family: 'Times New Roman'; font-size: 22px;">The operation addition is defined as (<i>a</i><sub>2</sub><i>x</i><sup>2</sup>+<i>a</i><sub>1</sub><i>x</i><sup>1</sup>+<i>a</i><sub>0</sub>)+(<i>b</i><sub>2</sub><i>x</i><sup>2</sup>+<i>b</i><sub>1</sub><i>x</i><sup>1</sup>+<i>b</i><sub>0</sub>)={(<i>a</i><sub>2</sub>+<i>b</i><sub>2</sub>)<i>x</i><sup>2</sup>+(<i>a</i><sub>1</sub>+<i>b</i><sub>1</sub>)<i>x</i><sup>1</sup>+(<i>a</i><sub>0</sub>+<i>b</i><sub>0</sub>)}; <br> where <i>a</i><sub>0</sub>, <i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, <i>b</i><sub>0</sub>, <i>b</i><sub>1</sub>, <i>b</i><sub>2</sub>&isin;<i>R</i>
 
