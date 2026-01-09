@@ -36,20 +36,20 @@ Case (i). <i>α</i><sub>1</sub>=2&isin;<i>R</i>, <i>α</i><sub>2</sub>=1&isin;<i
 <span style="font-family: 'Times New Roman'; font-size: 24px;"><b>6. Example-I:</b></span>
 <span style="font-family: 'Times New Roman'; font-size: 22px;">Let <i>R</i><sup>2</sup> be the vector space over <i>R</i> where <i>S</i> &sube; <i>R</i><sup>2</sup>. Then<br>
 (i)	<i>S</i>={(1, 0)} does not span <i>R</i><sup>2</sup>, i.e. <i>L</i>(<i>S</i>) &ne; <i>R</i><sup>2</sup>
-Justification: By definition, <i>L</i>(<i>S</i>)={<i>x</i>(1, 0)|<i>x</i>&isin;<i>R</i>}={(<i>x</i>, 0)|<i>x</i>&isin;<i>R</i>}. We show that (1, 1)  &notin;  <i>L</i>(<i>S</i>) because if not, then (1, 1) &isin; <i>L</i>(<i>S</i>) which implies (1, 1)=<i>α</i>(<i>x</i>, 0)=(<i>αx</i>, 0) i.e. 1=0, a contradiction. Thus (1, 1) &notin; <i>L</i>(<i>S</i>). Hence <i>L</i>(<i>S</i>) &ne; <i>R</i><sup>2</sup>. In the adjoining figure (Fig. 1) red line represents the span of <i>S</i>.</span>
+Justification: By definition, <i>L</i>(<i>S</i>)={<i>x</i>(1, 0)| <i>x</i>&isin;<i>R</i>}={(<i>x</i>, 0)| <i>x</i>&isin;<i>R</i>}. We show that (1, 1)  &notin;  <i>L</i>(<i>S</i>) because if not, then (1, 1) &isin; <i>L</i>(<i>S</i>) which implies (1, 1)=<i>α</i>(<i>x</i>, 0)=(<i>αx</i>, 0) i.e. 1=0, a contradiction. Thus (1, 1) &notin; <i>L</i>(<i>S</i>). Hence <i>L</i>(<i>S</i>) &ne; <i>R</i><sup>2</sup>. In the adjoining figure (Fig. 1) red line represents the span of <i>S</i>.</span>
 
 ![Example-I](images/exp3.2.PNG "Examples-I")<br>
 <span style="font-family: 'Times New Roman'; font-size: 22px;"><b>Fig. 1: <i>L</i>(<i>S</i>)=Red line</b></span><br>
 
 <span style="font-family: 'Times New Roman'; font-size: 22px;">(ii)	<i>S</i>={(1, 1), (1, 0)} spans <i>R</i><sup>2</sup>, i.e. <i>S</i> is a spanning set of <i>R</i><sup>2</sup>, i.e. <i>L</i>(<i>S</i>)=<i>R</i><sup>2</sup>.
-Justification: By definition, <i>L</i>(<i>S</i>)={<i>x</i>(1, 0)+<i>y</i>(1, 1)|<i>x</i>, <i>y</i>  &isin;<i>R</i>}={(<i>x</i>, 0)+(<i>y</i>, <i>y</i>)|<i>x</i>, <i>y</i> &isin;<i>R</i>}={(<i>x</i>+<i>y</i>, <i>y</i>)|<i>x</i>, <i>y</i> &isin;<i>R</i>}.
+Justification: By definition, <i>L</i>(<i>S</i>)={<i>x</i>(1, 0)+<i>y</i>(1, 1)| <i>x</i>, <i>y</i>  &isin;<i>R</i>}={(<i>x</i>, 0)+(<i>y</i>, <i>y</i>)| <i>x</i>, <i>y</i> &isin;<i>R</i>}={(<i>x</i>+<i>y</i>, <i>y</i>)| <i>x</i>, <i>y</i> &isin;<i>R</i>}.
 Clearly <i>L</i>(<i>S</i>) &sube; <i>R</i><sup>2</sup>. We show that <i>R</i><sup>2</sup> &sube; <i>L</i>(<i>S</i>). Let (<i>a</i>, <i>b</i>)  &isin;<i>R</i><sup>2</sup>. Then (<i>a</i>, <i>b</i>)=<i>α</i>(1, 0)+<i>β</i>(1, 1) for some <i>α</i>, <i>β</i> &isin;<i>R</i>. Therefore <i>α</i>=<i>a</i>-<i>b</i> and <i>β</i>=<i>b</i>. Clearly <i>α</i>(1, 0)+<i>β</i>(1, 1)=(<i>a</i>, <i>b</i>). Thus (<i>a</i>, <i>b</i>) &isin;<i>L</i>(<i>S</i>). So that <i>R</i><sup>2</sup> &sube;<i>L</i>(<i>S</i>). Hence <i>L</i>(<i>S</i>)=<i>R</i><sup>2</sup>. In the adjoining figure (Fig. 2) portion shaded by red lines represents the span of <i>S</i> which equals to <i>R</i><sup>2</sup> as (1, 0) is off the blue line spanned by (1, 1).</span>
 
 ![Example-I](images/exp3.1.PNG "Examples-I")<br>
 <span style="font-family: 'Times New Roman'; font-size: 22px;"><b>Fig. 2: <i>L</i>(<i>S</i>)=Portion shaded by red lines=<i>R</i><sup>2</sup></b></span><br>
 
 <span style="font-family: 'Times New Roman'; font-size: 22px;">(iii)	<i>S</i>={(1, 0), (2, 0)} does not span <i>R</i><sup>2</sup> i.e. <i>L</i>(<i>S</i>) &ne; <i>R</i><sup>2</sup>.
-Justification: By definition, <i>L</i>(<i>S</i>)={<i>x</i>(1, 0)+<i>y</i>(2, 0)|<i>x</i>, <i>y</i> &isin;<i>R</i>}={(<i>x</i>, 0)+(2<i>y</i>, 0)|<i>x</i>, <i>y</i> &isin;<i>R</i>}={(<i>x</i>+2<i>y</i>, 0)|<i>x</i>, <i>y</i>&isin;<i>R</i>}.
+Justification: By definition, <i>L</i>(<i>S</i>)={<i>x</i>(1, 0)+<i>y</i>(2, 0)| <i>x</i>, <i>y</i> &isin;<i>R</i>}={(<i>x</i>, 0)+(2<i>y</i>, 0)| <i>x</i>, <i>y</i> &isin;<i>R</i>}={(<i>x</i>+2<i>y</i>, 0)| <i>x</i>, <i>y</i>&isin;<i>R</i>}.
 We show that (0, 1)  &notin; <i>L</i>(<i>S</i>). For if (0, 1)&isin;<i>L</i>(<i>S</i>), then (0, 1)=<i>α</i>(1, 0)+<i>β</i>(2, 0) for some <i>α</i>, <i>β</i>&isin;<i>R</i>. Therefore 1=0, a contradiction. Thus (0, 1) &notin; <i>L</i>(<i>S</i>). Hence <i>L</i>(<i>S</i>) &ne; <i>R</i><sup>2</sup></span>
 
 <span style="font-family: 'Times New Roman'; font-size: 24px;"><b>7. Example-II:</b> </span>
