@@ -26,7 +26,7 @@ Case (i). <i>α</i><sub>1</sub>=2&isin;<i>R</i>, <i>α</i><sub>2</sub>=1&isin;<i
 <span style="font-family: 'Times New Roman'; font-size: 22px;">And the operation scalar multiplication is defined as <i>α</i>.(<i>a</i><sub>2</sub><i>x</i><sup>2</sup>+<i>a</i><sub>1</sub><i>x</i><sup>1</sup>+<i>a</i><sub>0</sub>)=<i>α</i>.<i>a</i><sub>2</sub><i>x</i><sup>2</sup>+ <i>α</i>.<i>a</i><sub>1</sub><i>x</i><sup>1</sup>+ <i>α</i>.<i>a</i><sub>0</sub>&isin;<i>R</i>.</span>
 
 <span style="font-family: 'Times New Roman'; font-size: 22px;">Then <i>x</i><sup>2</sup>+3<i>x</i>+3 &isin;<i>P</i><sub>2</sub>(<i>x</i>) is a linear combination of <i>p</i><sub>1</sub>=<i>x</i>+1, <i>p</i><sub>2</sub>=<i>x</i><sup>2</sup>+<i>x</i>+1, for <i>α</i><sub>1</sub>=2&isin;<i>R</i>, <i>α</i><sub>2</sub>=1&isin;<i>R</i>, s.t. 
-<i>α</i><sub>1</sub><i>p</i><sub>1</sub>+<i>α</i><sub>2</sub><i>p</i><sub>2</sub>=2(<i>x</i>+1)+1(<i>x</i><sup>2</sup>+<i>x</i>+1)=(2<i>x</i>+2)+ (<i>x</i><sup>2</sup>+<i>x</i>+1)=<i>x</i><sup>2</sup>+3<i>x</i>+3</span>
+<i>α</i><sub>1</sub><i>p</i><sub>1</sub>+<i>α</i><sub>2</sub><i>p</i><sub>2</sub>=2(<i>x</i>+1)+1(<i>x</i><sup>2</sup>+<i>x</i>+1)=(2<i>x</i>+2)+ (<i>x</i><sup>2</sup>+<i>x</i>+1)=<i>x</i><sup>2</sup>+3<i>x</i>+3.</span>
 
 <span style="font-family: 'Times New Roman'; font-size: 24px;"><b>4. Linear span:</b></span>
 <span style="font-family: 'Times New Roman'; font-size: 22px;">Case (i). Let φ &ne; <i>S</i> &sube; <i>V</i>. Then the linear span of <i>S</i> consists of all possible linear combinations of elements of <i>S</i>.  It is denoted by <i>L</i>(<i>S</i>). Thus <i>L</i>(<i>S</i>)= { <i>α</i><sub>1</sub><i>x</i><sub>1</sub>+ <i>α</i><sub>2</sub><i>x</i><sub>2</sub>+ …+<i>α</i><sub><i>k</i></sub><i>x</i><sub>k</sub> : <i>x</i><sub>1</sub>, <i>x</i><sub>2</sub>, ..., <i>x</i><sub><i>k</i></sub> &isin;<i>V</i>, <i>α</i><sub>1</sub>, <i>α</i><sub>2</sub>, …, <i>α</i><sub><i>k</i></sub> &isin;<i>F</i>}.</span>
@@ -55,7 +55,7 @@ Clearly <i>L</i>(<i>S</i>) &sube; <i>R</i><sup>2</sup>. We show that <i>R</i><su
 
 <span style="font-family: 'Times New Roman'; font-size: 22px;">(iii)	<i>S</i>={(1, 0), (2, 0)} does not span <i>R</i><sup>2</sup> i.e. <i>L</i>(<i>S</i>) &ne; <i>R</i><sup>2</sup>.
 Justification: By definition, <i>L</i>(<i>S</i>)={<i>x</i>(1, 0)+<i>y</i>(2, 0)| <i>x</i>, <i>y</i> &isin;<i>R</i>}={(<i>x</i>, 0)+(2<i>y</i>, 0)| <i>x</i>, <i>y</i> &isin;<i>R</i>}={(<i>x</i>+2<i>y</i>, 0)| <i>x</i>, <i>y</i>&isin;<i>R</i>}.
-We show that (0, 1)  &notin; <i>L</i>(<i>S</i>). For if (0, 1)&isin;<i>L</i>(<i>S</i>), then (0, 1)=<i>α</i>(1, 0)+<i>β</i>(2, 0) for some <i>α</i>, <i>β</i>&isin;<i>R</i>. Therefore 1=0, a contradiction. Thus (0, 1) &notin; <i>L</i>(<i>S</i>). Hence <i>L</i>(<i>S</i>) &ne; <i>R</i><sup>2</sup></span>
+We show that (0, 1)  &notin; <i>L</i>(<i>S</i>). For if (0, 1)&isin;<i>L</i>(<i>S</i>), then (0, 1)=<i>α</i>(1, 0)+<i>β</i>(2, 0) for some <i>α</i>, <i>β</i>&isin;<i>R</i>. Therefore 1=0, a contradiction. Thus (0, 1) &notin; <i>L</i>(<i>S</i>). Hence <i>L</i>(<i>S</i>) &ne; <i>R</i><sup>2</sup>.</span>
 
 <span style="font-family: 'Times New Roman'; font-size: 24px;"><b>7. Example-II:</b> </span><br>
 <span style="font-family: 'Times New Roman'; font-size: 22px;">i. Consider the vector space <i>P</i><sub>2</sub><i>x</i>  over <i>R</i> and let <i>S</i>={1, <i>x</i>+1, <i>x</i><sup>2</sup>+<i>x</i>+1} &sube; <i>P</i><sub>2</sub><i>x</i> . Then <i>S</i> spans <i>P</i><sub>2</sub><i>x</i> , i.e. <i>L</i>(<i>S</i>)=<i>P</i><sub>2</sub><i>x</i> .</span>
