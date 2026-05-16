@@ -55,7 +55,9 @@ body {
                 grid-template-columns: 1fr 1fr;
             }
         }
-    
+    .subbtn{
+        cursor: pointer;
+    }
     button{
         cursor:pointer;
         background-color: teal;
