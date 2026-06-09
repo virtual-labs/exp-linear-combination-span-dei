@@ -4,5 +4,5 @@
 4. Click on the “Next” button to go to the next page.<br>
 5. Click on the “Pick a point <i>x</i>” button to see <i>L</i>(<i>S</i>), for <i>S</i>={<i>x</i>}. (Here a button is provided for selecting a point. Hence direct clicking on the graph is not required.)<br>
 6. Click on the “Pick a point <i>x</i>” button in the next block to see <i>L</i>(<i>S</i>), for <i>S</i>={<i>x</i>, <i>y</i>}.  Then click on the “Pick another point (<i>y</i>)” button. Now click on the “on line” button or “not on line” button.<br>
-7. Repeat same process in the next block for the remaining case.<span>
+7. Repeat the same process in the next block, for the remaining case.<span>
 
